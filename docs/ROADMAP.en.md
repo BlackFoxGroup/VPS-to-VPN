@@ -1,11 +1,11 @@
-﻿# Black Fox Vpn Installer — Roadmap
+# VPS to VPN — Roadmap
 
-**Last updated:** 2026-07-19  
-**Product:** Black Fox Vpn Installer  
-**Current releases:** Windows **v1.3.0 (Build 202)** · Android **v0.4.13 (Build 21)** · Config Builder **v1.1.3 (Build 7)**  
+**Last updated:** 2026-09-09  
+**Product:** VPS to VPN  
+**Current releases:** Windows **v3.1.1 (Build 213)** · Android and Config Builder: see hub `version.json` (not updated in this pass)  
 **Website:** [https://foxnext.net](https://foxnext.net)
 
-This roadmap describes completed work, active work, and planned work for Black Fox Group’s server-deployment suite (Windows + Android). It is based on the current Windows Go codebase, Flutter Android app, website, and licensing service behavior.
+This roadmap describes completed work, active work, and planned work for **VPS to VPN** (Black Fox Group). It is based on the current Windows Go codebase, website, and licensing service behavior. Android version numbers are left unchanged in this document.
 
 ---
 
@@ -13,11 +13,11 @@ This roadmap describes completed work, active work, and planned work for Black F
 
 | Product | File | Link |
 |---------|------|------|
-| Black Fox Vpn Installer (Windows) | `Black Fox Vpn-Installer-Setup.exe` | [Download](https://foxnext.net/downloads/Black%20Fox%20Vpn-Installer-Setup.exe) |
-| BlackFox Vpn Android | `BlackFox-VPN-Android-release.apk` | [Download](https://foxnext.net/downloads/BlackFox-VPN-Android-release.apk) |
+| VPS to VPN (Windows) | `VPS to VPN-Setup.exe` | [Download](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| VPS to VPN Android | `VPS to VPN Android.apk` | [Download](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Black Fox Config Builder | `Black-Fox-Config-Builder.apk` | [Download](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 
-Google Play publication for BlackFox Vpn Android: **Coming Soon**  
+Google Play publication for VPS to VPN Android: **Coming Soon**  
 macOS edition: **Coming Soon**
 
 ---
@@ -26,8 +26,8 @@ macOS edition: **Coming Soon**
 
 ### Platform & releases
 
-- Windows desktop installer and operations console — **Black Fox Vpn Installer** v1.3.0 Build 202  
-- Android operations app — **BlackFox Vpn Android** v0.4.13 Build 21  
+- Windows desktop installer and operations console — **VPS to VPN** v3.1.1 Build 213  
+- Android operations app — **VPS to VPN Android** (version not changed in this pass)  
 - Companion Android tool — **Black Fox Config Builder** v1.1.3 Build 7  
 - Official site + dual update hosts (`foxnext.net`, `blackfoxupdate.ir`)  
 - Privacy Policy pages (EN/FA) on foxnext.net  
@@ -38,7 +38,7 @@ macOS edition: **Coming Soon**
 - Central Server setup / Connect SSH / Full Deploy  
 - Tunnel Server management (Pro)  
 - Exit Server management (Basic: 2 slots · Pro: up to 6)  
-- WireGuard primary tunnels + GRE fallback  
+- Nine mesh path types (Xray reverse / overlays + WireGuard last) with automatic failover  
 - Configure Panel helpers  
 - Core helpers: Install WireGuard / Install 3X-UI  
 
@@ -65,7 +65,7 @@ macOS edition: **Coming Soon**
 
 - Android companion **Black Fox Config Builder** v1.1.3 Build 7  
 - Download: [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)  
-- Docs repo: [balckfoxgroup/blackfox-config-builder](https://github.com/balckfoxgroup/blackfox-config-builder)  
+- Docs repo: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)  
 - Six tabs: Connection · Single · Bulk · List · Settings · Contact  
 - Multi-inbound create (single + bulk)  
 - Delete from panel / delete from list  
@@ -101,14 +101,14 @@ macOS edition: **Coming Soon**
 
 ### Near term
 
-- Google Play listing for **BlackFox Vpn Android** (Coming Soon → published)  
+- Google Play listing for **VPS to VPN Android** (Coming Soon → published)  
 - Broader standalone Backup / Restore tooling beyond Move Central migration backups  
 - Mid-workflow resume / recovery UI for interrupted deployments  
 - Expanded operator diagnostics and clearer failure recovery messages  
 
 ### Medium term
 
-- macOS edition of Black Fox Vpn (Coming Soon)  
+- macOS edition of VPS to VPN (Coming Soon)  
 - Deeper multi-CDN workflow polish on Windows  
 - Additional DNS / CDN provider options where demand is clear  
 - Stronger audit trails for Move Central and license reactivation events  
@@ -135,7 +135,7 @@ macOS edition: **Coming Soon**
 - [WHITEPAPER.en.md](WHITEPAPER.en.md)  
 - [WHITEPAPER.fa.md](WHITEPAPER.fa.md)  
 - [ROADMAP.fa.md](ROADMAP.fa.md)  
-- Config Builder docs: [balckfoxgroup/blackfox-config-builder](https://github.com/balckfoxgroup/blackfox-config-builder)  
+- Config Builder docs: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)  
 
 ---
 

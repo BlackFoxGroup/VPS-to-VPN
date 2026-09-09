@@ -1,11 +1,11 @@
-﻿# نقشه راه Black Fox Vpn Installer
+# نقشه راه VPS to VPN
 
-**آخرین به‌روزرسانی:** ۱۹ ژوئیه ۲۰۲۶  
-**محصول:** Black Fox Vpn Installer  
-**نسخه‌های فعلی:** ویندوز **v1.3.0 (Build 202)** · اندروید **v0.4.13 (Build 21)** · Config Builder **v1.1.3 (Build 7)**  
+**آخرین به‌روزرسانی:** ۹ سپتامبر ۲۰۲۶  
+**محصول:** VPS to VPN  
+**نسخه‌های فعلی:** ویندوز **v3.1.1 (Build 213)** · اندروید و Config Builder در این گذر دست نخورده‌اند  
 **وب‌سایت:** [https://foxnext.net](https://foxnext.net)
 
-این نقشه راه وضعیت واقعی کارهای انجام‌شده، کارهای در حال پیشرفت و کارهای برنامه‌ریزی‌شده را برای مجموعه ابزار استقرار سرور Black Fox Group (ویندوز و اندروید) شرح می‌دهد. مبنای آن کد فعلی Go ویندوز، اپ Flutter اندروید، وب‌سایت رسمی و رفتار سرویس لایسنس است.
+این نقشه راه وضعیت واقعی کارهای انجام‌شده، کارهای در حال پیشرفت و کارهای برنامه‌ریزی‌شده را برای **VPS to VPN** (گروه Black Fox) شرح می‌دهد. مبنای آن کد فعلی Go ویندوز، وب‌سایت رسمی و رفتار سرویس لایسنس است. نسخهٔ اندروید در این گذر عوض نشده است.
 
 ---
 
@@ -13,11 +13,11 @@
 
 | محصول | نام فایل | لینک |
 |--------|----------|------|
-| Black Fox Vpn Installer (ویندوز) | `Black Fox Vpn-Installer-Setup.exe` | [دانلود](https://foxnext.net/downloads/Black%20Fox%20Vpn-Installer-Setup.exe) |
-| BlackFox Vpn Android | `BlackFox-VPN-Android-release.apk` | [دانلود](https://foxnext.net/downloads/BlackFox-VPN-Android-release.apk) |
+| VPS to VPN (ویندوز) | `VPS to VPN-Setup.exe` | [دانلود](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| VPS to VPN Android | `VPS to VPN Android.apk` | [دانلود](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Black Fox Config Builder | `Black-Fox-Config-Builder.apk` | [دانلود](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 
-انتشار BlackFox Vpn Android در Google Play: **به‌زودی**  
+انتشار VPS to VPN Android در Google Play: **به‌زودی**  
 نسخه macOS: **به‌زودی**
 
 ---
@@ -26,8 +26,8 @@
 
 ### پلتفرم و انتشار
 
-- نصب‌کننده و کنسول عملیاتی دسکتاپ ویندوز — **Black Fox Vpn Installer** نسخه 1.3.0 Build 202  
-- اپ عملیاتی اندروید — **BlackFox Vpn Android** نسخه 0.4.13 Build 21  
+- نصب‌کننده و کنسول عملیاتی دسکتاپ ویندوز — **VPS to VPN** نسخه 3.1.1 Build 213  
+- اپ عملیاتی اندروید — **VPS to VPN Android** (نسخه در این گذر عوض نشده)  
 - ابزار همراه اندروید — **Black Fox Config Builder** نسخه 1.1.3 Build 7  
 - وب‌سایت رسمی و دو میزبان آپدیت (`foxnext.net` و `blackfoxupdate.ir`)  
 - صفحات سیاست حریم خصوصی فارسی و انگلیسی روی foxnext.net  
@@ -38,7 +38,7 @@
 - راه‌اندازی Central Server / Connect SSH / Full Deploy  
 - مدیریت Tunnel Server در Pro  
 - مدیریت Exit Server (Basic: دو اسلات · Pro: تا شش خروجی)  
-- تونل اصلی WireGuard به‌همراه GRE fallback  
+- نه نوع مسیر مش (Xray reverse / overlay به‌علاوه WireGuard در آخر) با failover خودکار  
 - ابزارهای Configure Panel  
 - کمک‌کننده‌های نصب WireGuard و 3X-UI  
 
@@ -65,7 +65,7 @@
 
 - ابزار همراه اندروید **Black Fox Config Builder** نسخه 1.1.3 Build 7  
 - دانلود: [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)  
-- ریپوی مستندات: [balckfoxgroup/blackfox-config-builder](https://github.com/balckfoxgroup/blackfox-config-builder)  
+- ریپوی مستندات: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)  
 - شش تب: Connection · Single · Bulk · List · Settings · Contact  
 - ساخت با انتخاب چند Inbound (تکی و گروهی)  
 - حذف از پنل / حذف از لیست  
@@ -101,14 +101,14 @@
 
 ### کوتاه‌مدت
 
-- انتشار رسمی **BlackFox Vpn Android** در Google Play (از Coming Soon به منتشرشده)  
+- انتشار رسمی **VPS to VPN Android** در Google Play (از Coming Soon به منتشرشده)  
 - ابزار Backup / Restore مستقل‌تر فراتر از بکاپ مهاجرت Move Central  
 - رابط ازسرگیری میانی برای استقرارهای قطع‌شده  
 - تشخیص‌پذیری بهتر خطا و پیام‌های بازیابی واضح‌تر برای اپراتور  
 
 ### میان‌مدت
 
-- نسخه macOS از Black Fox Vpn (به‌زودی)  
+- نسخه macOS از VPS to VPN (به‌زودی)  
 - پرداخت عمیق‌تر جریان‌های چند CDN روی ویندوز  
 - افزودن ارائه‌دهنده DNS / CDN بیشتر در صورت تقاضای روشن  
 - ردپای ممیزی قوی‌تر برای Move Central و فعال‌سازی مجدد لایسنس  
@@ -135,7 +135,7 @@
 - [WHITEPAPER.fa.md](WHITEPAPER.fa.md)  
 - [WHITEPAPER.en.md](WHITEPAPER.en.md)  
 - [ROADMAP.en.md](ROADMAP.en.md)  
-- مستندات Config Builder: [balckfoxgroup/blackfox-config-builder](https://github.com/balckfoxgroup/blackfox-config-builder)  
+- مستندات Config Builder: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)  
 
 ---
 

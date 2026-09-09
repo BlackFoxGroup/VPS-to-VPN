@@ -1,22 +1,22 @@
-﻿# Black Fox Vpn Installer — Whitepaper
+# VPS to VPN — Whitepaper
 
-**Last updated:** 2026-07-19  
-**Product family:** Black Fox Vpn Installer (Windows) · BlackFox Vpn Android · Black Fox Config Builder  
-**Current releases:** Windows **v1.3.0 (Build 202)** · Android **v0.4.13 (Build 21)** · Config Builder **v1.1.3 (Build 7)**  
+**Last updated:** 2026-09-09  
+**Product family:** VPS to VPN (Windows) · VPS to VPN Android · Black Fox Config Builder  
+**Current releases:** Windows **v3.1.1 (Build 213)** · Android / Config Builder: unchanged in this pass  
 **Website:** [https://foxnext.net](https://foxnext.net)  
-**GitHub:** [https://github.com/balckfoxgroup/blackfox-vpn-installer](https://github.com/balckfoxgroup/blackfox-vpn-installer)
+**GitHub:** [https://github.com/BlackFoxGroup/blackfox-vpn-installer](https://github.com/BlackFoxGroup/blackfox-vpn-installer)
 
 ---
 
 ## 1. Purpose
 
-Black Fox Vpn Installer is a **server deployment and operations suite**, not a consumer VPN client.
+VPS to VPN is a **server deployment and operations suite**, not a consumer VPN client.
 
 It exists to help operators in constrained networks deploy and manage multi-location VPN infrastructure built on:
 
 - **3X-UI (Sanaei)** as the panel layer  
-- **WireGuard** as the primary tunnel  
-- **GRE** as a fallback path when WireGuard cannot sustain the route  
+- **Nine mesh path types** (eight Xray-based + WireGuard last) with automatic failover  
+- **Server Connection Manager** for live link type, watchdog, and Link Monitor  
 
 The product goal is to remove most of the repetitive Linux, SSH, panel, DNS, and tunnel work from day-to-day operations.
 
@@ -26,13 +26,13 @@ The product goal is to remove most of the repetitive Linux, SSH, panel, DNS, and
 
 | Surface | Full product name | Role | Download |
 |---------|-------------------|------|----------|
-| Windows | **Black Fox Vpn Installer** | Full desktop operations console | [Black Fox Vpn-Installer-Setup.exe](https://foxnext.net/downloads/Black%20Fox%20Vpn-Installer-Setup.exe) |
-| Android | **BlackFox Vpn Android** | Mobile operations app (Basic + Pro) | [BlackFox-VPN-Android-release.apk](https://foxnext.net/downloads/BlackFox-VPN-Android-release.apk) |
+| Windows | **VPS to VPN** | Full desktop operations console | [VPS to VPN-Setup.exe](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Android | **VPS to VPN Android** | Mobile operations app (Basic + Pro) | [VPS to VPN Android.apk](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android companion | **Black Fox Config Builder** | Mobile helper to create 3X-UI client configs | [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
-| Google Play | BlackFox Vpn Android listing | Distribution channel | **Coming Soon** |
-| macOS | Black Fox Vpn | Future desktop edition | **Coming Soon** |
+| Google Play | VPS to VPN Android listing | Distribution channel | **Coming Soon** |
+| macOS | VPS to VPN | Future desktop edition | **Coming Soon** |
 
-Dedicated Config Builder documentation: [balckfoxgroup/blackfox-config-builder](https://github.com/balckfoxgroup/blackfox-config-builder)
+Dedicated Config Builder documentation: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)
 
 ---
 
@@ -55,7 +55,7 @@ Pro Mode targets larger multi-hop infrastructures:
 - Central Server  
 - Tunnel Server  
 - Up to six Exit servers  
-- WireGuard + GRE  
+- Nine mesh path types + failover  
 - Domain / DNS management  
 - CDN automation on Windows  
 - **Move Central Server on Windows and Android**  
@@ -147,7 +147,7 @@ Android Pro currently focuses on core topology operations and Move Central; Wind
 
 **Black Fox Config Builder** is the Android companion for day-to-day 3X-UI config creation on a phone.
 
-It does **not** deploy servers. Operators still use Black Fox Vpn Installer / BlackFox Vpn Android for Basic/Pro infrastructure, then paste **Panel Login Info** into Config Builder.
+It does **not** deploy servers. Operators still use VPS to VPN / VPS to VPN Android for Basic/Pro infrastructure, then paste **Panel Login Info** into Config Builder.
 
 ### Current release
 
@@ -211,7 +211,7 @@ Treat the published Privacy Policy pages as the authoritative source.
 - [ROADMAP.en.md](ROADMAP.en.md)  
 - [ROADMAP.fa.md](ROADMAP.fa.md)  
 - [WHITEPAPER.fa.md](WHITEPAPER.fa.md)  
-- Config Builder docs: [balckfoxgroup/blackfox-config-builder](https://github.com/balckfoxgroup/blackfox-config-builder)  
+- Config Builder docs: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)  
 
 ---
 

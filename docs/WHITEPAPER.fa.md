@@ -1,22 +1,22 @@
-﻿# وایت‌پیپر Black Fox Vpn Installer
+# وایت‌پیپر VPS to VPN
 
-**آخرین به‌روزرسانی:** ۱۹ ژوئیه ۲۰۲۶  
-**خانواده محصول:** Black Fox Vpn Installer (ویندوز) · BlackFox Vpn Android · Black Fox Config Builder  
-**نسخه‌های فعلی:** ویندوز **v1.3.0 (Build 202)** · اندروید **v0.4.13 (Build 21)** · Config Builder **v1.1.3 (Build 7)**  
+**آخرین به‌روزرسانی:** ۹ سپتامبر ۲۰۲۶  
+**خانواده محصول:** VPS to VPN (ویندوز) · VPS to VPN Android · Black Fox Config Builder  
+**نسخه‌های فعلی:** ویندوز **v3.1.1 (Build 213)** · اندروید / Config Builder در این گذر دست نخورده‌اند  
 **وب‌سایت:** [https://foxnext.net](https://foxnext.net)  
-**گیت‌هاب:** [https://github.com/balckfoxgroup/blackfox-vpn-installer](https://github.com/balckfoxgroup/blackfox-vpn-installer)
+**گیت‌هاب:** [https://github.com/BlackFoxGroup/blackfox-vpn-installer](https://github.com/BlackFoxGroup/blackfox-vpn-installer)
 
 ---
 
 ## ۱. هدف
 
-Black Fox Vpn Installer یک **مجموعه استقرار و عملیات سرور** است، نه یک کلاینت VPN مصرفی برای کاربر نهایی.
+VPS to VPN یک **مجموعه استقرار و عملیات سرور** است، نه یک کلاینت VPN مصرفی برای کاربر نهایی.
 
 هدف این مجموعه کمک به اپراتورهایی است که در شبکه‌های محدود کار می‌کنند تا زیرساخت VPN چندلوکیشن را بر پایه این لایه‌ها راه‌اندازی و مدیریت کنند:
 
 - **3X-UI (سنایی)** به‌عنوان لایه پنل  
-- **WireGuard** به‌عنوان تونل اصلی  
-- **GRE** به‌عنوان مسیر پشتیبان وقتی WireGuard نمی‌تواند مسیر را پایدار نگه دارد  
+- **نه نوع مسیر مش** (هشت مسیر Xray + WireGuard در آخر) با failover خودکار  
+- **Server Connection Manager** برای نوع لینک زنده، Watchdog و Link Monitor  
 
 هدف محصول این است که بخش بزرگی از کارهای تکراری لینوکس، SSH، پنل، DNS و تونل را از عملیات روزمره حذف کند.
 
@@ -26,13 +26,13 @@ Black Fox Vpn Installer یک **مجموعه استقرار و عملیات سر�
 
 | سطح | نام کامل محصول | نقش | دانلود |
 |------|-----------------|-----|--------|
-| ویندوز | **Black Fox Vpn Installer** | کنسول کامل عملیات دسکتاپ | [Black Fox Vpn-Installer-Setup.exe](https://foxnext.net/downloads/Black%20Fox%20Vpn-Installer-Setup.exe) |
-| اندروید | **BlackFox Vpn Android** | اپ عملیاتی موبایل (Basic + Pro) | [BlackFox-VPN-Android-release.apk](https://foxnext.net/downloads/BlackFox-VPN-Android-release.apk) |
+| ویندوز | **VPS to VPN** | کنسول کامل عملیات دسکتاپ | [VPS to VPN-Setup.exe](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| اندروید | **VPS to VPN Android** | اپ عملیاتی موبایل (Basic + Pro) | [VPS to VPN Android.apk](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | ابزار همراه اندروید | **Black Fox Config Builder** | کمک‌کننده ساخت کانفیگ کلاینت روی پنل 3X-UI | [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
-| Google Play | فهرست BlackFox Vpn Android | کانال توزیع | **به‌زودی** |
-| macOS | Black Fox Vpn | نسخه دسکتاپ آینده | **به‌زودی** |
+| Google Play | فهرست VPS to VPN Android | کانال توزیع | **به‌زودی** |
+| macOS | VPS to VPN | نسخه دسکتاپ آینده | **به‌زودی** |
 
-مستندات اختصاصی Config Builder: [balckfoxgroup/blackfox-config-builder](https://github.com/balckfoxgroup/blackfox-config-builder)
+مستندات اختصاصی Config Builder: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)
 
 ---
 
@@ -55,7 +55,7 @@ Pro Mode برای زیرساخت‌های چندپرشی و بزرگ‌تر طر
 - Central Server  
 - Tunnel Server  
 - حداکثر شش Exit Server  
-- WireGuard به‌همراه GRE  
+- نه نوع مسیر مش به‌همراه failover  
 - مدیریت Domain / DNS  
 - اتوماسیون CDN روی ویندوز  
 - **Move Central Server روی ویندوز و اندروید**  
@@ -147,7 +147,7 @@ Client Infrastructure
 
 **Black Fox Config Builder** ابزار همراه اندروید برای ساخت روزمره کانفیگ روی پنل 3X-UI از طریق گوشی است.
 
-این برنامه سرور راه‌اندازی نمی‌کند. اپراتور ابتدا با Black Fox Vpn Installer یا BlackFox Vpn Android زیرساخت Basic/Pro را می‌سازد، سپس اطلاعات **Panel Login Info** را در Config Builder وارد می‌کند.
+این برنامه سرور راه‌اندازی نمی‌کند. اپراتور ابتدا با VPS to VPN یا VPS to VPN Android زیرساخت Basic/Pro را می‌سازد، سپس اطلاعات **Panel Login Info** را در Config Builder وارد می‌کند.
 
 ### نسخه فعلی
 
@@ -211,7 +211,7 @@ Config Builder مسیر ثبت‌نام لایسنس / TX Unlock مربوط به
 - [ROADMAP.fa.md](ROADMAP.fa.md)  
 - [ROADMAP.en.md](ROADMAP.en.md)  
 - [WHITEPAPER.en.md](WHITEPAPER.en.md)  
-- مستندات Config Builder: [balckfoxgroup/blackfox-config-builder](https://github.com/balckfoxgroup/blackfox-config-builder)  
+- مستندات Config Builder: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)  
 
 ---
 

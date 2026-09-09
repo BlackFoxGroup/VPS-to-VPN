@@ -2,10 +2,10 @@
   <img src="docs/assets/logo.jpg" alt="Black Fox VPN Logo" width="96">
 </p>
 
-<h1 align="center">Black Fox Vpn Installer</h1>
+<h1 align="center">VPS to VPN</h1>
 
 <p align="center">
-  <strong>Server deployment automation · Multi-location VPN mesh</strong><br>
+  <strong>Server Installer &amp; Manager · Black Fox Group</strong><br>
   Windows desktop console · 3X-UI (Sanaei) · Xray reverse mesh paths
 </p>
 
@@ -14,7 +14,7 @@
   <a href="#فارسی">فارسی</a> ·
   <a href="https://foxnext.net">Website</a> ·
   <a href="https://t.me/blackFoxVPNN">Telegram</a> ·
-  <a href="https://github.com/balckfoxgroup/blackfox-vpn-installer">GitHub</a>
+  <a href="https://github.com/BlackFoxGroup/blackfox-vpn-installer">GitHub</a>
 </p>
 
 ---
@@ -25,13 +25,13 @@
 
 ## What this product is
 
-**Black Fox Vpn Installer** is **not** a simple VPN client.
+**VPS to VPN** (Black Fox Group) is **not** a simple VPN client.
 
 It is a Windows operations console that deploys and manages multi-server VPN infrastructure:
 
 - Central / Tunnel / Exit / Node servers over SSH  
 - Automated **3X-UI (Sanaei)** install and Configure Panel  
-- Mesh links with **eight Xray-based path types** and automatic failover  
+- Mesh links with **nine path types** (eight Xray-based + WireGuard last) and automatic failover  
 - **Server Connection Manager** for link type, watchdog, and Link Monitor agents  
 - Basic Mode and Pro Mode licensing  
 - Move Central, domain/CDN helpers, bots, and license reactivation  
@@ -42,8 +42,8 @@ Designed for operators who need multi-location egress without deep Linux experti
 
 | Platform | Product | Status | Download |
 |----------|---------|--------|----------|
-| Windows | **Black Fox Vpn Installer** v3.0.0 | Available | [Setup.exe](https://foxnext.net/downloads/Black%20Fox%20Vpn-Installer-Setup.exe) |
-| Android | **BlackFox Vpn Android** | Available | [APK](https://foxnext.net/downloads/BlackFox-VPN-Android-release.apk) |
+| Windows | **VPS to VPN** v3.1.1 | Available | [Setup.exe](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Android | **VPS to VPN Android** | Available | [APK](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android | **Black Fox Config Builder** | Available | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 | Android | Google Play | Coming soon | — |
 | macOS | Black Fox Vpn | Coming soon | — |
@@ -61,7 +61,7 @@ Designed for operators who need multi-location egress without deep Linux experti
 - Test Client with share links after configure  
 - Refresh / repair mesh paths and topology status  
 
-### Mesh link types (8)
+### Mesh link types (9)
 
 WireGuard / GRE / QUIC are **no longer** primary mesh transports. Active path IDs:
 
@@ -75,8 +75,10 @@ WireGuard / GRE / QUIC are **no longer** primary mesh transports. Active path ID
 | 6 | `ssh_protected_backup` | SSH backup path |
 | 7 | `obfuscated_overlay` | Obfuscated overlay |
 | 8 | `vxlan_overlay` | VXLAN overlay |
+| 9 | `wireguard` | Site-to-site WireGuard (UDP; last in picker) |
 
 **Failover order:** bridge → portal → stealth-wss → ssh → obfuscated → vxlan  
+(WireGuard fallback: SSH) 
 
 Any live path keeps the topology **link line green** (server square health is separate).
 
@@ -153,13 +155,13 @@ Roadmap / whitepaper: [docs/ROADMAP.en.md](docs/ROADMAP.en.md) · [docs/WHITEPAP
 
 ## این محصول چیست؟
 
-**Black Fox Vpn Installer** یک کلاینت VPN ساده نیست.
+**VPS to VPN** (گروه Black Fox) یک کلاینت VPN ساده نیست.
 
 یک کنسول عملیات ویندوز است برای استقرار و مدیریت زیرساخت VPN چندسروری:
 
 - سرورهای Central / Tunnel / Exit / Node از طریق SSH  
 - نصب و پیکربندی خودکار **3X-UI (سنایی)** و Configure Panel  
-- لینک‌های مش با **هشت نوع مسیر مبتنی بر Xray** و failover خودکار  
+- لینک‌های مش با **نه نوع مسیر** (هشت مسیر Xray + WireGuard آخر) و failover خودکار  
 - **Server Connection Manager** برای نوع لینک، Watchdog و ایجنت Link Monitor  
 - لایسنس Basic و Pro  
 - Move Central، دامنه/CDN، ربات‌ها و فعال‌سازی مجدد لایسنس  
@@ -170,8 +172,8 @@ Roadmap / whitepaper: [docs/ROADMAP.en.md](docs/ROADMAP.en.md) · [docs/WHITEPAP
 
 | پلتفرم | محصول | وضعیت | دانلود |
 |--------|--------|--------|--------|
-| ویندوز | **Black Fox Vpn Installer** نسخه ۳٫۰٫۰ | منتشر شده | [Setup.exe](https://foxnext.net/downloads/Black%20Fox%20Vpn-Installer-Setup.exe) |
-| اندروید | **BlackFox Vpn Android** | منتشر شده | [APK](https://foxnext.net/downloads/BlackFox-VPN-Android-release.apk) |
+| ویندوز | **VPS to VPN** نسخه ۳٫۱٫۱ | منتشر شده | [Setup.exe](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| اندروید | **VPS to VPN Android** | منتشر شده | [APK](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | اندروید | **Black Fox Config Builder** | منتشر شده | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 | اندروید | Google Play | به‌زودی | — |
 | macOS | Black Fox Vpn | به‌زودی | — |
@@ -189,7 +191,7 @@ Roadmap / whitepaper: [docs/ROADMAP.en.md](docs/ROADMAP.en.md) · [docs/WHITEPAP
 - Test Client با لینک‌های اشتراکی بعد از پیکربندی  
 - به‌روزرسانی / تعمیر مسیرهای مش و وضعیت Topology  
 
-### انواع لینک مش (۸ نوع)
+### انواع لینک مش (۹ نوع)
 
 WireGuard / GRE / QUIC دیگر مسیر اصلی مش نیستند. شناسه‌های فعال:
 
@@ -203,8 +205,10 @@ WireGuard / GRE / QUIC دیگر مسیر اصلی مش نیستند. شناسه�
 | ۶ | `ssh_protected_backup` | مسیر پشتیبان SSH |
 | ۷ | `obfuscated_overlay` | Overlay مبهم‌سازی‌شده |
 | ۸ | `vxlan_overlay` | Overlay با VXLAN |
+| ۹ | `wireguard` | WireGuard سایت‌به‌سایت (آخر لیست) |
 
 **ترتیب failover:** bridge → portal → stealth-wss → ssh → obfuscated → vxlan  
+(پشتیبان WireGuard: SSH) 
 
 اگر هر پروتکل زنده‌ای روی مسیر باشد، **خط Topology سبز** می‌ماند (سلامت مربع سرور جداست).
 
