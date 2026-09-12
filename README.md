@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/logo.jpg" alt="Black Fox VPN Logo" width="96">
+  <img src="docs/assets/BLACKFOX.png" alt="Black Fox VPN Logo" width="96">
 </p>
 
 <h1 align="center">VPS to VPN</h1>
