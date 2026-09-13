@@ -50,7 +50,7 @@ It is aimed at operators who want several egress locations and do not want to do
 
 | Platform | Product | Status | Download |
 |----------|---------|--------|----------|
-| Windows | VPS to VPN v3.1.1 installer | Available | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Windows | VPS to VPN  installer | Available | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | Windows | VPS to VPN portable | Available | [Portable.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | Android | VPS to VPN Android (arm64) | Available | [APK (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android | Black Fox Config Builder | Available | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
@@ -196,7 +196,7 @@ Roadmap / whitepaper:
 
 | پلتفرم | محصول | وضعیت | دانلود |
 |--------|--------|--------|--------|
-| ویندوز | نصب‌کننده VPS to VPN نسخه ۳٫۱٫۱ | منتشر شده | [Setup.zip در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| ویندوز | نصب‌کننده VPS to VPN | منتشر شده | [Setup.zip در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | ویندوز | نسخه قابل‌حمل | منتشر شده | [Portable.zip در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | اندروید | VPS to VPN Android (arm64) | منتشر شده | [APK در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | اندروید | Black Fox Config Builder | منتشر شده | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
@@ -337,7 +337,7 @@ VPS to VPN (Black Fox Group) — консоль для Windows, которой �
 
 | Платформа | Продукт | Статус | Скачать |
 |-----------|---------|--------|---------|
-| Windows | установщик VPS to VPN v3.1.1 | доступен | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Windows | установщик VPS to VPN  | доступен | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | Windows | portable | доступен | [Portable.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | Android | VPS to VPN Android (arm64) | доступен | [APK (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android | Black Fox Config Builder | доступен | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
@@ -379,7 +379,7 @@ VPS to VPN（Black Fox Group）是一套 Windows 运维控制台，用来部署�
 
 | 平台 | 产品 | 状态 | 下载 |
 |------|------|------|------|
-| Windows | VPS to VPN v3.1.1 安装包 | 已发布 | [Setup.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Windows | VPS to VPN  安装包 | 已发布 | [Setup.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | Windows | 便携版 | 已发布 | [Portable.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | Android | VPS to VPN Android（arm64） | 已发布 | [APK（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android | Black Fox Config Builder | 已发布 | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
