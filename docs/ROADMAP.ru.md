@@ -30,7 +30,8 @@ macOS: скоро.
 - Сайт и два хоста обновлений (`foxnext.net`, `blackfoxupdate.ir`)
 - Политика конфиденциальности EN/FA
 - Документы и бинарники на [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
-- Basic и Pro, Central / SSH / Full Deploy, Tunnel (Pro), Exit (2 слота в Basic, до 6 в Pro)
+- Basic и Pro, лицензия AI Assistant Pro и ИИ-агент Black Fox Group в чате
+- Central / SSH / Full Deploy, Tunnel (Pro), Exit (2 слота в Basic, до 6 в Pro)
 - Девять типов mesh с failover, Configure Panel, установка WireGuard и 3X-UI
 - DNS (Cloudflare, ArvanCloud), CDN на Windows Pro, Move Central на Windows и Android
 - Онлайн-оплата, офлайн-коды, Reactivation по отпечатку устройства

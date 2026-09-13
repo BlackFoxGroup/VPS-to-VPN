@@ -27,7 +27,7 @@ Google Play：即将上线。macOS：即将上线。
 
 Windows 控制台 3.1.1 Build 213、Android 运维应用、Config Builder 1.1.3 Build 7。官网与双更新主机。隐私页（中英对照站点上的 EN/FA）。公开文档和安装包在 [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)。
 
-Basic / Pro，Central、SSH、Full Deploy，Pro 的 Tunnel，Exit（Basic 2 槽，Pro 最多 6）。九种 mesh 与 failover。Configure Panel。安装 WireGuard / 3X-UI。
+Basic / Pro，以及 AI Assistant Pro（聊天里的 Black Fox Group 智能体，改服务器前会确认）。Central、SSH、Full Deploy，Pro 的 Tunnel，Exit（Basic 2 槽，Pro 最多 6）。九种 mesh 与 failover。Configure Panel。安装 WireGuard / 3X-UI。
 
 Pro：Cloudflare / ArvanCloud DNS；Windows 上的 CDN；Windows 与 Android 的 Move Central。许可：在线支付、离线码、同机重新激活。Config Builder 六个页签。界面十种语言。README / ROADMAP / WHITEPAPER 有英、波斯、俄、中。
 

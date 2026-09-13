@@ -38,6 +38,7 @@ Google Play برای اندروید: به‌زودی.
 ### عملیات اصلی (ویندوز و اندروید)
 
 - حالت Basic و Pro
+- لایسنس AI Assistant Pro و ایجنت هوش مصنوعی گروه Black Fox در چت (قبل از تغییر سرور تأیید می‌گیرد)
 - راه‌اندازی Central، Connect SSH، Full Deploy
 - Tunnel Server در Pro
 - Exit Server (Basic: دو اسلات؛ Pro: تا شش)

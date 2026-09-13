@@ -15,6 +15,7 @@
 - پنل 3X-UI (سنایی)
 - نه نوع مسیر مش (هشت مسیر Xray، WireGuard آخر) با failover خودکار
 - Server Connection Manager برای نوع لینک زنده، Watchdog و Link Monitor
+- لایسنس AI Assistant Pro و ایجنت هوش مصنوعی گروه Black Fox در چت؛ قبل از تغییر سرور تأیید می‌گیرد
 
 کار تکراری لینوکس، SSH، پنل، DNS و تونل از کار روزانه کم می‌شود.
 

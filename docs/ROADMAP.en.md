@@ -38,6 +38,7 @@ macOS edition: coming soon.
 ### Core operations (Windows and Android)
 
 - Basic Mode and Pro Mode
+- AI Assistant Pro: in-app Black Fox Group agent for day-to-day ops (chat, then confirm before changes)
 - Central setup, Connect SSH, Full Deploy
 - Tunnel Server (Pro)
 - Exit Server (Basic: 2 slots; Pro: up to 6)

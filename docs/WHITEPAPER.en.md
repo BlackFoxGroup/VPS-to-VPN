@@ -15,6 +15,7 @@ VPS to VPN is a server deploy and operations suite. Operators on restricted netw
 - 3X-UI (Sanaei) as the panel
 - Nine mesh path types (eight Xray-based, WireGuard last) with automatic failover
 - Server Connection Manager for live link type, watchdog, and Link Monitor
+- AI Assistant Pro: the Black Fox Group in-app agent. After activation, operators can ask in chat to add servers, install the panel, run mesh or domain work, and diagnose. The agent confirms before it changes a host.
 
 The point is to cut the repeated Linux, SSH, panel, DNS, and tunnel work from daily ops.
 

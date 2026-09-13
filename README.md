@@ -43,6 +43,7 @@ You use it to:
 - Change link type, apply Watchdog, and run Link Monitor from Server Connection Manager
 - Run Basic or Pro licensing
 - Move Central, work with domain/CDN helpers, bots, and license reactivation
+- Activate AI Assistant Pro and hand those jobs to the Black Fox Group AI agent in chat
 
 It is aimed at operators who want several egress locations and do not want to do every Linux step by hand.
 
@@ -50,7 +51,7 @@ It is aimed at operators who want several egress locations and do not want to do
 
 | Platform | Product | Status | Download |
 |----------|---------|--------|----------|
-| Windows | VPS to VPN  installer | Available | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Windows | VPS to VPN v3.1.1 installer | Available | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | Windows | VPS to VPN portable | Available | [Portable.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | Android | VPS to VPN Android (arm64) | Available | [APK (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android | Black Fox Config Builder | Available | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
@@ -125,6 +126,10 @@ The same tab has Topology, Mesh Links status, and the Active Link Monitor list.
 - UI in 10 languages
 - Black Fox Config Builder (Android) for panel config creation
 
+### AI Assistant Pro
+
+AI Assistant Pro is a Black Fox Group license inside the app. After you activate it, you can leave most console work to the in-app AI agent: add Central, Tunnel, Exit, or Node, install 3X-UI, mesh, domain and CDN, diagnose and repair, and other tasks the program already does. You type the request in chat (or attach a note or photo). The agent confirms before it changes a server.
+
 ---
 
 ## Architecture
@@ -189,6 +194,7 @@ Roadmap / whitepaper:
 - نوع لینک، Watchdog و Link Monitor را از Server Connection Manager عوض کنید
 - لایسنس Basic یا Pro بگیرید
 - Central را جابه‌جا کنید، دامنه و CDN را بزنید، ربات‌ها را وصل کنید و لایسنس را دوباره فعال کنید
+- لایسنس AI Assistant Pro را فعال کنید و همان کارها را به ایجنت هوش مصنوعی گروه Black Fox در چت بسپارید
 
 برای کسی است که چند خروجی جغرافیایی می‌خواهد و نمی‌خواهد هر کار لینوکس را دستی تکرار کند.
 
@@ -196,7 +202,7 @@ Roadmap / whitepaper:
 
 | پلتفرم | محصول | وضعیت | دانلود |
 |--------|--------|--------|--------|
-| ویندوز | نصب‌کننده VPS to VPN | منتشر شده | [Setup.zip در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| ویندوز | نصب‌کننده VPS to VPN نسخه ۳٫۱٫۱ | منتشر شده | [Setup.zip در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | ویندوز | نسخه قابل‌حمل | منتشر شده | [Portable.zip در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | اندروید | VPS to VPN Android (arm64) | منتشر شده | [APK در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | اندروید | Black Fox Config Builder | منتشر شده | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
@@ -271,6 +277,10 @@ Roadmap / whitepaper:
 - رابط به ۱۰ زبان
 - ابزار Black Fox Config Builder روی اندروید
 
+### AI Assistant Pro
+
+لایسنس AI Assistant Pro داخل برنامه است. بعد از فعال‌سازی می‌توانید بیشتر کار کنسول را به ایجنت هوش مصنوعی گروه Black Fox بسپارید: افزودن Central، Tunnel، Exit یا Node، نصب 3X-UI، مش، دامنه و CDN، تشخیص و تعمیر، و بقیه کارهایی که خود برنامه بلد است. درخواست را در چت می‌نویسید (یا فایل و عکس می‌فرستید). قبل از تغییر سرور ایجنت تأیید می‌گیرد.
+
 ---
 
 ## معماری
@@ -330,6 +340,7 @@ VPS to VPN (Black Fox Group) — консоль для Windows, которой �
 - менять тип линка, включать Watchdog и Link Monitor в Server Connection Manager
 - работать в Basic или Pro
 - переносить Central, настраивать домен и CDN, ботов и повторную активацию лицензии
+- включить AI Assistant Pro и поручить эти задачи ИИ-агенту Black Fox Group в чате
 
 Рассчитана на операторов, которым нужны несколько точек выхода и которые не хотят каждый шаг в Linux делать вручную.
 
@@ -337,7 +348,7 @@ VPS to VPN (Black Fox Group) — консоль для Windows, которой �
 
 | Платформа | Продукт | Статус | Скачать |
 |-----------|---------|--------|---------|
-| Windows | установщик VPS to VPN  | доступен | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Windows | установщик VPS to VPN v3.1.1 | доступен | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | Windows | portable | доступен | [Portable.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | Android | VPS to VPN Android (arm64) | доступен | [APK (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android | Black Fox Config Builder | доступен | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
@@ -345,6 +356,10 @@ VPS to VPN (Black Fox Group) — консоль для Windows, которой �
 | macOS | VPS to VPN | скоро | — |
 
 Файлы релизов: [BlackFoxGroup/VPS-to-VPN/releases](https://github.com/BlackFoxGroup/VPS-to-VPN/releases)
+
+### AI Assistant Pro
+
+AI Assistant Pro — лицензия Black Fox Group внутри приложения. После активации большую часть работы консоли можно отдать ИИ-агенту: добавить Central, Tunnel, Exit или Node, поставить 3X-UI, mesh, домен и CDN, диагностика и ремонт, и другие уже существующие операции. Запрос пишете в чат (или прикладываете файл или фото). Перед изменением сервера агент спрашивает подтверждение.
 
 Документы: [docs/ROADMAP.ru.md](docs/ROADMAP.ru.md) · [docs/WHITEPAPER.ru.md](docs/WHITEPAPER.ru.md)
 
@@ -372,6 +387,7 @@ VPS to VPN（Black Fox Group）是一套 Windows 运维控制台，用来部署�
 - 在 Server Connection Manager 里改链路类型、加 Watchdog 和 Link Monitor
 - 使用 Basic 或 Pro 许可
 - 迁移 Central、处理域名/CDN、机器人和许可重新激活
+- 开通 AI Assistant Pro，把这些事交给聊天里的 Black Fox Group 智能体
 
 面向需要多出口、又不想把每一步 Linux 都手搓一遍的运维。
 
@@ -379,7 +395,7 @@ VPS to VPN（Black Fox Group）是一套 Windows 运维控制台，用来部署�
 
 | 平台 | 产品 | 状态 | 下载 |
 |------|------|------|------|
-| Windows | VPS to VPN  安装包 | 已发布 | [Setup.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Windows | VPS to VPN v3.1.1 安装包 | 已发布 | [Setup.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | Windows | 便携版 | 已发布 | [Portable.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | Android | VPS to VPN Android（arm64） | 已发布 | [APK（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android | Black Fox Config Builder | 已发布 | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
@@ -387,5 +403,9 @@ VPS to VPN（Black Fox Group）是一套 Windows 运维控制台，用来部署�
 | macOS | VPS to VPN | 即将上线 | — |
 
 发布页：[BlackFoxGroup/VPS-to-VPN/releases](https://github.com/BlackFoxGroup/VPS-to-VPN/releases)
+
+### AI Assistant Pro
+
+AI Assistant Pro 是应用内的 Black Fox Group 许可。开通后，可以把控制台里大部分工作交给智能体：添加 Central、Tunnel、Exit、Node，安装 3X-UI，mesh，域名和 CDN，诊断和修复，以及程序本身已有的其他操作。在聊天里写需求（或附上文件、照片）。改服务器前智能体会先确认。
 
 文档：[docs/ROADMAP.zh.md](docs/ROADMAP.zh.md) · [docs/WHITEPAPER.zh.md](docs/WHITEPAPER.zh.md)

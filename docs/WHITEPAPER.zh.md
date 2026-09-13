@@ -10,7 +10,7 @@
 
 ## 1. 用途
 
-VPS to VPN 是一套服务器部署和运维工具。受限网络里的运维用它搭多地点 VPN，底层是 3X-UI（Sanaei）、九种 mesh（八种 Xray，WireGuard 最后）加自动 failover，以及 Server Connection Manager（链路类型、Watchdog、Link Monitor）。
+VPS to VPN 是一套服务器部署和运维工具。受限网络里的运维用它搭多地点 VPN，底层是 3X-UI（Sanaei）、九种 mesh（八种 Xray，WireGuard 最后）加自动 failover，以及 Server Connection Manager（链路类型、Watchdog、Link Monitor）。开通 AI Assistant Pro 后，可在聊天里把加服务器、装面板、mesh、域名和诊断交给 Black Fox Group 智能体；改主机前会先确认。
 
 日常重复的 Linux、SSH、面板、DNS、隧道工作会少很多。
 
