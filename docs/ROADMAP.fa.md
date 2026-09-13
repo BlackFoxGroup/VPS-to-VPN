@@ -2,7 +2,7 @@
 
 **آخرین به‌روزرسانی:** ۱۳ سپتامبر ۲۰۲۶  
 **محصول:** VPS to VPN  
-**نسخه فعلی:** ویندوز v3.1.1 (Build 213). اندروید و Config Builder از `version.json` روی میزبان آپدیت می‌آیند.  
+**نسخه فعلی:** ویندوز v3.2.0 (Build 220). اندروید و Config Builder از `version.json` روی میزبان آپدیت می‌آیند.  
 **وب‌سایت:** [https://foxnext.net](https://foxnext.net)  
 **گیت‌هاب عمومی:** [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
@@ -15,7 +15,7 @@
 | محصول | فایل | گیت‌هاب | سایت |
 |--------|------|---------|------|
 | نصب‌کننده ویندوز | `VPS-to-VPN-Setup.zip` | [دانلود](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
-| نسخه قابل‌حمل ویندوز | `VPS to VPN-Portable.zip` | [دانلود](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) | — |
+| نسخه قابل‌حمل ویندوز | `VPS to VPN-Portable.zip` | [دانلود](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Portable.zip) | — |
 | اندروید arm64 | `VPS-to-VPN-Android-arm64-v8a-release.apk` | [دانلود](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Black Fox Config Builder | `Black-Fox-Config-Builder.apk` | — | [foxnext.net](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 
@@ -28,7 +28,7 @@ Google Play برای اندروید: به‌زودی.
 
 ### پلتفرم و انتشار
 
-- نصب‌کننده و کنسول ویندوز: VPS to VPN نسخه 3.1.1 Build 213
+- نصب‌کننده و کنسول ویندوز: VPS to VPN نسخه 3.2.0 Build 220
 - اپ عملیات اندروید
 - ابزار همراه Config Builder نسخه 1.1.3 Build 7
 - سایت و دو میزبان آپدیت (`foxnext.net`، `blackfoxupdate.ir`)

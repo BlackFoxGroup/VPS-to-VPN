@@ -2,7 +2,7 @@
 
 **Обновлено:** 13 сентября 2026  
 **Продукт:** VPS to VPN  
-**Текущие сборки:** Windows v3.1.1 (Build 213). Android и Config Builder берутся из `version.json` на хостах обновлений.  
+**Текущие сборки:** Windows v3.2.0 (Build 220). Android и Config Builder берутся из `version.json` на хостах обновлений.  
 **Сайт:** [https://foxnext.net](https://foxnext.net)  
 **Публичный GitHub:** [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
@@ -15,7 +15,7 @@
 | Продукт | Файл | GitHub | Сайт |
 |---------|------|--------|------|
 | Установщик Windows | `VPS-to-VPN-Setup.zip` | [скачать](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
-| Portable Windows | `VPS to VPN-Portable.zip` | [скачать](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) | — |
+| Portable Windows | `VPS to VPN-Portable.zip` | [скачать](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Portable.zip) | — |
 | Android arm64 | `VPS-to-VPN-Android-arm64-v8a-release.apk` | [скачать](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Black Fox Config Builder | `Black-Fox-Config-Builder.apk` | — | [foxnext.net](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 
@@ -26,7 +26,7 @@ macOS: скоро.
 
 ## Сделано
 
-- Консоль Windows v3.1.1 Build 213, приложение Android, Config Builder 1.1.3 Build 7
+- Консоль Windows v3.2.0 Build 220, приложение Android, Config Builder 1.1.3 Build 7
 - Сайт и два хоста обновлений (`foxnext.net`, `blackfoxupdate.ir`)
 - Политика конфиденциальности EN/FA
 - Документы и бинарники на [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)

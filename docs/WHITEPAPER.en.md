@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-09-13  
 **Products:** VPS to VPN (Windows), VPS to VPN Android, Black Fox Config Builder  
-**Current Windows release:** v3.1.1 (Build 213)  
+**Current Windows release:** v3.2.0 (Build 220)  
 **Website:** [https://foxnext.net](https://foxnext.net)  
 **Public GitHub:** [https://github.com/BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
@@ -25,7 +25,7 @@ The point is to cut the repeated Linux, SSH, panel, DNS, and tunnel work from da
 
 | Surface | Name | Role | Download |
 |---------|------|------|----------|
-| Windows | VPS to VPN | Desktop operations console | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip), [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
+| Windows | VPS to VPN | Desktop operations console | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip), [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Portable.zip) |
 | Android | VPS to VPN Android | Mobile operations (Basic and Pro) | [APK (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) |
 | Android companion | Black Fox Config Builder | Phone helper for 3X-UI client configs | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 | Google Play | VPS to VPN Android | Store listing | Coming soon |

@@ -2,7 +2,7 @@
 
 **آخرین به‌روزرسانی:** ۱۳ سپتامبر ۲۰۲۶  
 **محصول‌ها:** VPS to VPN (ویندوز)، VPS to VPN Android، Black Fox Config Builder  
-**نسخه ویندوز:** v3.1.1 (Build 213)  
+**نسخه ویندوز:** v3.2.0 (Build 220)  
 **وب‌سایت:** [https://foxnext.net](https://foxnext.net)  
 **گیت‌هاب عمومی:** [https://github.com/BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
@@ -25,7 +25,7 @@
 
 | سطح | نام | نقش | دانلود |
 |------|------|-----|--------|
-| ویندوز | VPS to VPN | کنسول دسکتاپ | [Setup.zip در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip)، [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
+| ویندوز | VPS to VPN | کنسول دسکتاپ | [Setup.zip در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip)، [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Portable.zip) |
 | اندروید | VPS to VPN Android | عملیات موبایل (Basic و Pro) | [APK در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) |
 | همراه اندروید | Black Fox Config Builder | ساخت کانفیگ کلاینت 3X-UI | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 | Google Play | VPS to VPN Android | فروشگاه | به‌زودی |

@@ -2,7 +2,7 @@
 
 **Обновлено:** 13 сентября 2026  
 **Продукты:** VPS to VPN (Windows), VPS to VPN Android, Black Fox Config Builder  
-**Windows:** v3.1.1 (Build 213)  
+**Windows:** v3.2.0 (Build 220)  
 **Сайт:** [https://foxnext.net](https://foxnext.net)  
 **Публичный GitHub:** [https://github.com/BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
@@ -20,7 +20,7 @@ VPS to VPN — набор для развёртывания и эксплуат�
 
 | Где | Имя | Роль | Скачать |
 |-----|-----|------|---------|
-| Windows | VPS to VPN | Десктопная консоль | [Setup.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip), [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
+| Windows | VPS to VPN | Десктопная консоль | [Setup.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip), [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Portable.zip) |
 | Android | VPS to VPN Android | Мобильные операции | [APK](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) |
 | Android | Black Fox Config Builder | Конфиги клиентов 3X-UI | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 | Google Play | VPS to VPN Android | Магазин | скоро |
