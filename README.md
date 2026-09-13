@@ -25,6 +25,12 @@
 
 # English
 
+Black Fox Group is the company that makes VPS to VPN. Official website: https://foxnext.net
+
+VPS to VPN runs on Windows and Android. You connect to a VPS, install the 3X-UI Sanaei panel without Linux knowledge, and build a multi-location VPN.
+
+Official downloads: https://foxnext.net/en/download.html
+
 ## What this product is
 
 VPS to VPN (Black Fox Group) is a Windows operations console for multi-server VPN setups.
@@ -165,6 +171,12 @@ Roadmap / whitepaper:
 
 # فارسی
 
+شرکت Black Fox Group سازنده محصول VPS to VPN است. وب‌سایت رسمی: https://foxnext.net
+
+برنامه روی ویندوز و اندروید اجرا می‌شود. به سرور VPS وصل می‌شوید، پنل 3X-UI سنایی را بدون دانش لینوکس نصب می‌کنید و یک VPN چندلوکیشن می‌سازید.
+
+دانلود رسمی: https://foxnext.net/en/download.html
+
 ## این محصول چیست؟
 
 محصول VPS to VPN (گروه Black Fox) یک کنسول عملیات ویندوز برای زیرساخت VPN چندسروری است.
@@ -300,6 +312,12 @@ Roadmap / whitepaper:
 
 # Русский
 
+Компания Black Fox Group выпускает VPS to VPN. Официальный сайт: https://foxnext.net
+
+Программа работает на Windows и Android. Вы подключаетесь к VPS, ставите панель 3X-UI Sanaei без знания Linux и собираете VPN в нескольких локациях.
+
+Официальные загрузки: https://foxnext.net/en/download.html
+
 ## Что это
 
 VPS to VPN (Black Fox Group) — консоль для Windows, которой поднимают и ведут VPN на нескольких серверах.
@@ -335,6 +353,12 @@ VPS to VPN (Black Fox Group) — консоль для Windows, которой �
 <a id="中文"></a>
 
 # 中文
+
+Black Fox Group 是开发 VPS to VPN 的公司。官网：https://foxnext.net
+
+程序可在 Windows 和 Android 上使用。连上 VPS 后，不必懂 Linux 也能安装 3X-UI Sanaei 面板，并搭好多地点 VPN。
+
+官方下载：https://foxnext.net/en/download.html
 
 ## 这是什么
 
