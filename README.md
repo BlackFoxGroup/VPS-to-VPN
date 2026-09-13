@@ -117,6 +117,7 @@ The same tab has Topology, Mesh Links status, and the Active Link Monitor list.
 |------|--------|
 | Basic | Central plus a limited set of Exit slots |
 | Pro | Full chain (Tunnel/Node), Mesh Manager, Domain/CDN on Windows, Move Central |
+| AI Assistant Pro | In-app Black Fox Group agent: you ask in chat and confirm before a server change |
 
 ### Other features
 
@@ -159,7 +160,7 @@ English, Persian, Russian, Chinese, German, Uzbek, Turkish, Indonesian, Ukrainia
 - Telegram: https://t.me/blackFoxVPNN
 - Email: support@foxnext.net
 
-Basic and Pro licenses are sold through registration on [foxnext.net](https://foxnext.net).
+Basic, Pro, and AI Assistant Pro licenses are sold through registration on [foxnext.net](https://foxnext.net).
 
 Public docs repo: [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
@@ -268,6 +269,7 @@ Roadmap / whitepaper:
 |------|--------|
 | Basic | Central و تعداد محدود Exit |
 | Pro | زنجیره کامل، Mesh Manager، Domain/CDN روی ویندوز، Move Central |
+| AI Assistant Pro | ایجنت گروه Black Fox در چت؛ قبل از تغییر سرور تأیید می‌گیرد |
 
 ### سایر امکانات
 
@@ -310,7 +312,7 @@ Roadmap / whitepaper:
 - تلگرام: https://t.me/blackFoxVPNN
 - ایمیل: support@foxnext.net
 
-لایسنس Basic و Pro از ثبت‌نام در [foxnext.net](https://foxnext.net) فروخته می‌شود.
+لایسنس Basic، Pro و AI Assistant Pro از ثبت‌نام در [foxnext.net](https://foxnext.net) فروخته می‌شود.
 
 ریپوی عمومی اسناد: [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
@@ -357,11 +359,111 @@ VPS to VPN (Black Fox Group) — консоль для Windows, которой �
 
 Файлы релизов: [BlackFoxGroup/VPS-to-VPN/releases](https://github.com/BlackFoxGroup/VPS-to-VPN/releases)
 
+---
+
+## Основные возможности
+
+### Развёртывание и работа с серверами
+
+- Connect SSH, Full Deploy, подготовка хоста
+- Установка и усиление 3X-UI на Central
+- Слоты Exit, Tunnel и Node (Pro)
+- Configure Panel с несколькими клиентскими inbound
+- Test Client со ссылками после настройки
+- Обновление или ремонт mesh и статус Topology
+
+### Типы mesh (9)
+
+WireGuard, GRE и QUIC больше не первые транспорты mesh. Активные ID:
+
+| # | ID | Роль |
+|---|----|------|
+| 1 | `xray_reverse_bridge` | Основной reverse bridge (в стиле SDN) |
+| 2 | `xray_reverse_portal` | Reverse portal (в стиле Lattix) |
+| 3 | `l2_vless_waterwall` | L2 + VLESS + WaterWall |
+| 4 | `xray_federation` | Федерация bridge и portal |
+| 5 | `reverse_stealth_wss` | Reverse-туннель Stealth-WSS |
+| 6 | `ssh_protected_backup` | Резервный путь SSH |
+| 7 | `obfuscated_overlay` | Обфусцированный overlay |
+| 8 | `vxlan_overlay` | Overlay VXLAN |
+| 9 | `wireguard` | Site-to-site WireGuard (UDP; в конце списка) |
+
+Порядок failover: bridge, portal, stealth-wss, ssh, obfuscated, vxlan.  
+Запасной путь WireGuard: SSH.
+
+Если жив любой путь, линия Topology остаётся зелёной. Здоровье квадрата сервера — отдельный сигнал.
+
+### Server Connection Manager (Pro)
+
+Одна вкладка Mesh:
+
+1. Один раз выбрать связанные серверы
+2. Change Link Type
+3. Apply Watchdog (агенты Link Monitor на обоих концах)
+4. Резервные пути, Optimize VPS или Link Monitor
+
+Там же Topology, статус Mesh Links и список Active Link Monitor.
+
+### Configure Panel
+
+- Стратегия линка на каждый сервер (без общего переключателя xray/WG)
+- Клиентские протоколы: VLESS, Trojan, VMess, Shadowsocks (роли зависят от типа линка)
+- Открывает Test Client со собранными ссылками
+
+### Режимы
+
+| Режим | Фокус |
+|-------|--------|
+| Basic | Central и ограниченный набор слотов Exit |
+| Pro | Полная цепочка (Tunnel/Node), Mesh Manager, Domain/CDN на Windows, Move Central |
+| AI Assistant Pro | ИИ-агент Black Fox Group в чате; перед изменением сервера спрашивает подтверждение |
+
+### Прочее
+
+- Move Central Server с сохранением клиентов панели
+- License Reactivation по отпечатку того же устройства
+- Два хоста обновлений (`foxnext.net` и `blackfoxupdate.ir`)
+- Интерфейс на 10 языках
+- Black Fox Config Builder (Android) для конфигов панели
+
 ### AI Assistant Pro
 
 AI Assistant Pro — лицензия Black Fox Group внутри приложения. После активации большую часть работы консоли можно отдать ИИ-агенту: добавить Central, Tunnel, Exit или Node, поставить 3X-UI, mesh, домен и CDN, диагностика и ремонт, и другие уже существующие операции. Запрос пишете в чат (или прикладываете файл или фото). Перед изменением сервера агент спрашивает подтверждение.
 
-Документы: [docs/ROADMAP.ru.md](docs/ROADMAP.ru.md) · [docs/WHITEPAPER.ru.md](docs/WHITEPAPER.ru.md)
+---
+
+## Архитектура
+
+```text
+Клиенты → Central (3X-UI)
+              ↓  путь mesh (bridge / portal / …)
+         Tunnel (необязательно)
+              ↓
+           Exit / Node
+              ↓
+         Выход в интернет
+```
+
+---
+
+## Языки
+
+английский, персидский, русский, китайский, немецкий, узбекский, турецкий, индонезийский, украинский, хинди.
+
+---
+
+## Конфиденциальность и поддержка
+
+- Политика EN: https://foxnext.net/en/privacy.html
+- Политика FA: https://foxnext.net/fa/privacy.html
+- Telegram: https://t.me/blackFoxVPNN
+- Почта: support@foxnext.net
+
+Лицензии Basic, Pro и AI Assistant Pro продаются через регистрацию на [foxnext.net](https://foxnext.net).
+
+Публичный репозиторий: [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
+
+Дорожная карта и белая книга: [docs/ROADMAP.ru.md](docs/ROADMAP.ru.md) · [docs/WHITEPAPER.ru.md](docs/WHITEPAPER.ru.md)
 
 ---
 
@@ -404,8 +506,108 @@ VPS to VPN（Black Fox Group）是一套 Windows 运维控制台，用来部署�
 
 发布页：[BlackFoxGroup/VPS-to-VPN/releases](https://github.com/BlackFoxGroup/VPS-to-VPN/releases)
 
+---
+
+## 主要能力
+
+### 部署和运维
+
+- Connect SSH、Full Deploy、主机准备
+- 在 Central 上安装并加固 3X-UI
+- 添加 Exit、Tunnel、Node 槽位（Pro）
+- Configure Panel，多协议客户端 inbound
+- 配置完成后用 Test Client 看分享链接
+- 刷新或修复 mesh 路径和 Topology 状态
+
+### Mesh 链路类型（9）
+
+WireGuard、GRE、QUIC 已不再是首选 mesh 传输。当前路径 ID：
+
+| # | ID | 作用 |
+|---|----|------|
+| 1 | `xray_reverse_bridge` | 主 reverse bridge（SDN 风格） |
+| 2 | `xray_reverse_portal` | Reverse portal（Lattix 风格） |
+| 3 | `l2_vless_waterwall` | L2 + VLESS + WaterWall |
+| 4 | `xray_federation` | bridge 与 portal 联邦 |
+| 5 | `reverse_stealth_wss` | Stealth-WSS 反向隧道 |
+| 6 | `ssh_protected_backup` | SSH 备用路径 |
+| 7 | `obfuscated_overlay` | 混淆 overlay |
+| 8 | `vxlan_overlay` | VXLAN overlay |
+| 9 | `wireguard` | 站点间 WireGuard（UDP；列表最后） |
+
+故障切换顺序：bridge、portal、stealth-wss、ssh、obfuscated、vxlan。  
+WireGuard 的后备是 SSH。
+
+只要有一条活路径，Topology 连线保持绿色。服务器方块的健康是另一套信号。
+
+### Server Connection Manager（Pro）
+
+一个 Mesh 页：
+
+1. 先选好已连接的服务器
+2. Change Link Type
+3. Apply Watchdog（两端的 Link Monitor 代理）
+4. 备用路径、Optimize VPS 或 Link Monitor
+
+同一页还有 Topology、Mesh Links 状态和 Active Link Monitor 列表。
+
+### Configure Panel
+
+- 每台服务器各自的链路策略（没有全局 xray/WG 开关）
+- 客户端协议：VLESS、Trojan、VMess、Shadowsocks（角色随链路类型变化）
+- 打开 Test Client 并带上收集到的分享链接
+
+### 模式
+
+| 模式 | 侧重 |
+|------|------|
+| Basic | Central 和有限的 Exit 槽 |
+| Pro | 完整链路（Tunnel/Node）、Mesh Manager、Windows 上的 Domain/CDN、Move Central |
+| AI Assistant Pro | 聊天里的 Black Fox Group 智能体；改服务器前先确认 |
+
+### 其他
+
+- Move Central 时保留面板客户
+- 同一台设备指纹上的 License Reactivation
+- 双更新主机（`foxnext.net` 和 `blackfoxupdate.ir`）
+- 界面十种语言
+- Android 上的 Black Fox Config Builder，用来做面板配置
+
 ### AI Assistant Pro
 
 AI Assistant Pro 是应用内的 Black Fox Group 许可。开通后，可以把控制台里大部分工作交给智能体：添加 Central、Tunnel、Exit、Node，安装 3X-UI，mesh，域名和 CDN，诊断和修复，以及程序本身已有的其他操作。在聊天里写需求（或附上文件、照片）。改服务器前智能体会先确认。
 
-文档：[docs/ROADMAP.zh.md](docs/ROADMAP.zh.md) · [docs/WHITEPAPER.zh.md](docs/WHITEPAPER.zh.md)
+---
+
+## 架构
+
+```text
+客户端 → Central (3X-UI)
+              ↓  mesh 路径 (bridge / portal / …)
+         Tunnel（可选）
+              ↓
+           Exit / Node
+              ↓
+         出口上网
+```
+
+---
+
+## 语言
+
+英语、波斯语、俄语、中文、德语、乌兹别克语、土耳其语、印尼语、乌克兰语、印地语。
+
+---
+
+## 隐私与支持
+
+- 英文隐私：https://foxnext.net/en/privacy.html
+- 波斯文隐私：https://foxnext.net/fa/privacy.html
+- Telegram：https://t.me/blackFoxVPNN
+- 邮箱：support@foxnext.net
+
+Basic、Pro 和 AI Assistant Pro 许可通过 [foxnext.net](https://foxnext.net) 注册出售。
+
+公开仓库：[BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
+
+路线图与白皮书：[docs/ROADMAP.zh.md](docs/ROADMAP.zh.md) · [docs/WHITEPAPER.zh.md](docs/WHITEPAPER.zh.md)
