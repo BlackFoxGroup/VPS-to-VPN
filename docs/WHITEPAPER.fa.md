@@ -24,7 +24,7 @@
 
 | سطح | نام | نقش | دانلود |
 |------|------|-----|--------|
-| ویندوز | VPS to VPN | کنسول دسکتاپ | [Setup.exe در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Setup.exe)، [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Portable.zip) |
+| ویندوز | VPS to VPN | کنسول دسکتاپ | [Setup.exe در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Setup.exe)، [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | اندروید | VPS to VPN Android | عملیات موبایل (Basic و Pro) | [APK در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) |
 | همراه اندروید | Black Fox Config Builder | ساخت کانفیگ کلاینت 3X-UI | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 | Google Play | VPS to VPN Android | فروشگاه | به‌زودی |

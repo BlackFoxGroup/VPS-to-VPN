@@ -20,7 +20,7 @@ VPS to VPN — набор для развёртывания и эксплуат�
 
 | Где | Имя | Роль | Скачать |
 |-----|-----|------|---------|
-| Windows | VPS to VPN | Десктопная консоль | [Setup.exe](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Setup.exe), [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Portable.zip) |
+| Windows | VPS to VPN | Десктопная консоль | [Setup.exe](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Setup.exe), [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | Android | VPS to VPN Android | Мобильные операции | [APK](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) |
 | Android | Black Fox Config Builder | Конфиги клиентов 3X-UI | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 | Google Play | VPS to VPN Android | Магазин | скоро |

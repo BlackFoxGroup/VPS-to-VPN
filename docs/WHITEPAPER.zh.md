@@ -20,7 +20,7 @@ VPS to VPN 是一套服务器部署和运维工具。受限网络里的运维用
 
 | 端 | 名称 | 作用 | 下载 |
 |----|------|------|------|
-| Windows | VPS to VPN | 桌面运维控制台 | [Setup.exe](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Setup.exe)、[Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Portable.zip) |
+| Windows | VPS to VPN | 桌面运维控制台 | [Setup.exe](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Setup.exe)、[Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | Android | VPS to VPN Android | 手机运维（Basic / Pro） | [APK](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) |
 | Android | Black Fox Config Builder | 在手机上做 3X-UI 客户配置 | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 | Google Play | VPS to VPN Android | 商店 | 即将上线 |

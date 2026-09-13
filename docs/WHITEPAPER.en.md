@@ -24,7 +24,7 @@ The point is to cut the repeated Linux, SSH, panel, DNS, and tunnel work from da
 
 | Surface | Name | Role | Download |
 |---------|------|------|----------|
-| Windows | VPS to VPN | Desktop operations console | [Setup.exe (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Setup.exe), [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Portable.zip) |
+| Windows | VPS to VPN | Desktop operations console | [Setup.exe (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Setup.exe), [Portable.zip](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) |
 | Android | VPS to VPN Android | Mobile operations (Basic and Pro) | [APK (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) |
 | Android companion | Black Fox Config Builder | Phone helper for 3X-UI client configs | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 | Google Play | VPS to VPN Android | Store listing | Coming soon |

@@ -14,8 +14,8 @@
 
 | 产品 | 文件 | GitHub | 网站 |
 |------|------|--------|------|
-| Windows 安装包 | `VPS to VPN-Setup.exe` | [下载](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Setup.exe) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
-| Windows 便携包 | `VPS to VPN-Portable.zip` | [下载](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Portable.zip) | — |
+| Windows 安装包 | `VPS to VPN-Setup.exe` | [下载](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Setup.exe) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Windows 便携包 | `VPS to VPN-Portable.zip` | [下载](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) | — |
 | Android arm64 | `VPS-to-VPN-Android-arm64-v8a-release.apk` | [下载](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Black Fox Config Builder | `Black-Fox-Config-Builder.apk` | — | [foxnext.net](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 
