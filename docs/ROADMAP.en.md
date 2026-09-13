@@ -1,99 +1,88 @@
-# VPS to VPN — Roadmap
+# VPS to VPN roadmap
 
-**Last updated:** 2026-09-09  
+**Last updated:** 2026-09-13  
 **Product:** VPS to VPN  
-**Current releases:** Windows **v3.1.1 (Build 213)** · Android and Config Builder: see hub `version.json` (not updated in this pass)  
-**Website:** [https://foxnext.net](https://foxnext.net)
+**Current releases:** Windows v3.1.1 (Build 213). Android and Config Builder follow `version.json` on the update hosts.  
+**Website:** [https://foxnext.net](https://foxnext.net)  
+**Public GitHub:** [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
-This roadmap describes completed work, active work, and planned work for **VPS to VPN** (Black Fox Group). It is based on the current Windows Go codebase, website, and licensing service behavior. Android version numbers are left unchanged in this document.
-
----
-
-## Downloads (full product names)
-
-| Product | File | Link |
-|---------|------|------|
-| VPS to VPN (Windows) | `VPS to VPN-Setup.exe` | [Download](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
-| VPS to VPN Android | `VPS to VPN Android.apk` | [Download](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
-| Black Fox Config Builder | `Black-Fox-Config-Builder.apk` | [Download](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
-
-Google Play publication for VPS to VPN Android: **Coming Soon**  
-macOS edition: **Coming Soon**
+This list tracks what already shipped, what we are still changing, and what is planned. It follows the current Windows Go tree, the site, and the license service. Android version numbers here stay as they were unless a release note says otherwise.
 
 ---
 
-## Completed
+## Downloads
 
-### Platform & releases
+| Product | File | GitHub | Site |
+|---------|------|--------|------|
+| VPS to VPN (Windows installer) | `VPS to VPN-Setup.exe` | [download](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Setup.exe) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| VPS to VPN (Windows portable) | `VPS to VPN-Portable.zip` | [download](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Portable.zip) | — |
+| VPS to VPN Android (arm64) | `VPS-to-VPN-Android-arm64-v8a-release.apk` | [download](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
+| Black Fox Config Builder | `Black-Fox-Config-Builder.apk` | — | [foxnext.net](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 
-- Windows desktop installer and operations console — **VPS to VPN** v3.1.1 Build 213  
-- Android operations app — **VPS to VPN Android** (version not changed in this pass)  
-- Companion Android tool — **Black Fox Config Builder** v1.1.3 Build 7  
-- Official site + dual update hosts (`foxnext.net`, `blackfoxupdate.ir`)  
-- Privacy Policy pages (EN/FA) on foxnext.net  
+Google Play for VPS to VPN Android: coming soon.  
+macOS edition: coming soon.
 
-### Core operations (Windows + Android)
+---
 
-- Basic Mode and Pro Mode  
-- Central Server setup / Connect SSH / Full Deploy  
-- Tunnel Server management (Pro)  
-- Exit Server management (Basic: 2 slots · Pro: up to 6)  
-- Nine mesh path types (Xray reverse / overlays + WireGuard last) with automatic failover  
-- Configure Panel helpers  
-- Core helpers: Install WireGuard / Install 3X-UI  
+## Done
 
-### Pro advanced features
+### Platform and releases
 
-- Domain / subdomain management with DNS automation (Cloudflare, ArvanCloud)  
-- CDN automation on **Windows Pro** (ArvanCloud, Cloudflare, KeyCDN, Other)  
-- **Move Central Server on Windows and Android (Pro)**  
-  - Reconnects tunnel and exit servers to the new central  
-  - Transfers 3X-UI panel clients automatically via snapshot restore  
-  - Creates a local migration backup during the move  
-- Migration-oriented backup path used by Move Central  
+- Windows installer and operations console: VPS to VPN v3.1.1 Build 213
+- Android operations app: VPS to VPN Android
+- Companion: Black Fox Config Builder v1.1.3 Build 7
+- Site plus two update hosts (`foxnext.net`, `blackfoxupdate.ir`)
+- Privacy pages (EN/FA) on foxnext.net
+- Public docs and binaries on [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
+
+### Core operations (Windows and Android)
+
+- Basic Mode and Pro Mode
+- Central setup, Connect SSH, Full Deploy
+- Tunnel Server (Pro)
+- Exit Server (Basic: 2 slots; Pro: up to 6)
+- Nine mesh path types with automatic failover
+- Configure Panel helpers
+- Install WireGuard / Install 3X-UI helpers
+
+### Pro extras
+
+- Domain and subdomain DNS automation (Cloudflare, ArvanCloud)
+- CDN automation on Windows Pro (ArvanCloud, Cloudflare, KeyCDN, Other)
+- Move Central Server on Windows and Android (Pro): reconnects tunnel and exit hosts, restores 3X-UI clients from a snapshot, writes a local migration backup
 
 ### Licensing
 
-- Online payment verification (TX Hash / USDT)  
-- Offline activation codes  
-- **License Reactivation** on Registration screen  
-  - After uninstall/reinstall on the **same device**, user presses **Reactivation** / **فعال‌سازی مجدد**  
-  - App restores activation from the official reactivation service using the device machine fingerprint  
-  - Users no longer need to permanently keep license codes only to recover after reinstall on the same device  
+- Online payment check (TX Hash / USDT)
+- Offline activation codes
+- License Reactivation on the Registration screen after uninstall/reinstall on the same device (machine fingerprint)
 
-### Companion — Black Fox Config Builder
+### Companion: Black Fox Config Builder
 
-- Android companion **Black Fox Config Builder** v1.1.3 Build 7  
-- Download: [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)  
-- Docs repo: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)  
-- Six tabs: Connection · Single · Bulk · List · Settings · Contact  
-- Multi-inbound create (single + bulk)  
-- Delete from panel / delete from list  
-- Dual-server remote updates (`blackfoxupdate.ir` + `foxnext.net`)  
-- Requires 3X-UI **≥ 3.3.0** · Android API 24+ · 10 languages  
-- Build 6: dual-server remote feed · Build 7: current published Android release  
+- Six tabs: Connection, Single, Bulk, List, Settings, Contact
+- Single and bulk inbound create
+- Delete from panel or from the local list
+- Dual-server updates
+- Needs 3X-UI 3.3.0 or newer, Android API 24+, 10 languages
+- Docs: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)
 
 ### Localization
 
-- **10 languages:** English, Persian, Russian, Chinese, German, Uzbek, Turkish, Indonesian, Ukrainian, Hindi  
-- Shared localization coverage across apps and website  
+Ten languages: English, Persian, Russian, Chinese, German, Uzbek, Turkish, Indonesian, Ukrainian, Hindi.
 
-### Documentation & brand surfaces
+### Docs
 
-- README (EN + full FA)  
-- ROADMAP (EN + FA)  
-- WHITEPAPER (EN + FA)  
-- Website guides for Basic / Pro / Registration / Keys / Config Builder  
+README, ROADMAP, and WHITEPAPER in English, Persian, Russian, and Chinese. Site guides for Basic, Pro, Registration, Keys, and Config Builder.
 
 ---
 
-## In Progress
+## In progress
 
-- Further Android ↔ Windows operational parity (UI depth and edge-case flows)  
-- UX hardening for long-running deploy / move operations  
-- Stability improvements around SSH, panel sync, and update checks  
-- Website content synchronization with product behavior  
-- Softening remaining differences between Windows CDN tooling and Android Pro scope  
+- Closer Android and Windows behavior on long or odd flows
+- Clearer UI while deploy or move jobs run
+- SSH, panel sync, and update-check stability
+- Site copy matching what the apps actually do
+- Remaining gaps between Windows CDN tools and Android Pro
 
 ---
 
@@ -101,42 +90,38 @@ macOS edition: **Coming Soon**
 
 ### Near term
 
-- Google Play listing for **VPS to VPN Android** (Coming Soon → published)  
-- Broader standalone Backup / Restore tooling beyond Move Central migration backups  
-- Mid-workflow resume / recovery UI for interrupted deployments  
-- Expanded operator diagnostics and clearer failure recovery messages  
+- Google Play listing for VPS to VPN Android
+- Backup and restore that is not only the Move Central snapshot
+- Resume or recover a deploy that stopped mid-way
+- Clearer operator errors and recovery text
 
 ### Medium term
 
-- macOS edition of VPS to VPN (Coming Soon)  
-- Deeper multi-CDN workflow polish on Windows  
-- Additional DNS / CDN provider options where demand is clear  
-- Stronger audit trails for Move Central and license reactivation events  
+- macOS edition
+- More CDN polish on Windows
+- Extra DNS/CDN providers if operators ask for them
+- Better audit logs for Move Central and reactivation
 
-### Longer term
+### Later
 
-- Expanded multi-region operator tooling  
-- Deeper panel automation and client lifecycle helpers  
-- Additional platforms / packaging channels as demand grows  
-
----
-
-## Explicit non-goals (for now)
-
-- Turning the suite into a consumer VPN client for end users  
-- Claiming Google Play or macOS as already released  
-- Documenting features that are not present in current Windows/Android source  
+- More multi-region operator tools
+- More panel automation around client lifecycle
+- Other platforms or stores if there is demand
 
 ---
 
-## Related documents
+## Out of scope for now
 
-- [README.md](../README.md)  
-- [WHITEPAPER.en.md](WHITEPAPER.en.md)  
-- [WHITEPAPER.fa.md](WHITEPAPER.fa.md)  
-- [ROADMAP.fa.md](ROADMAP.fa.md)  
-- Config Builder docs: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)  
+- A consumer VPN client for end users
+- Saying Google Play or macOS already shipped
+- Writing up features that are not in the current Windows or Android source
 
 ---
+
+## Related
+
+- [README.md](../README.md)
+- [WHITEPAPER.en.md](WHITEPAPER.en.md)
+- [ROADMAP.fa.md](ROADMAP.fa.md) · [ROADMAP.ru.md](ROADMAP.ru.md) · [ROADMAP.zh.md](ROADMAP.zh.md)
 
 © Black Fox Security Team

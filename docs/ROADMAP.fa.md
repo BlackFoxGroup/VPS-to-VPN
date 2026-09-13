@@ -1,24 +1,26 @@
 # نقشه راه VPS to VPN
 
-**آخرین به‌روزرسانی:** ۹ سپتامبر ۲۰۲۶  
+**آخرین به‌روزرسانی:** ۱۳ سپتامبر ۲۰۲۶  
 **محصول:** VPS to VPN  
-**نسخه‌های فعلی:** ویندوز **v3.1.1 (Build 213)** · اندروید و Config Builder در این گذر دست نخورده‌اند  
-**وب‌سایت:** [https://foxnext.net](https://foxnext.net)
+**نسخه فعلی:** ویندوز v3.1.1 (Build 213). اندروید و Config Builder از `version.json` روی میزبان آپدیت می‌آیند.  
+**وب‌سایت:** [https://foxnext.net](https://foxnext.net)  
+**گیت‌هاب عمومی:** [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
-این نقشه راه وضعیت واقعی کارهای انجام‌شده، کارهای در حال پیشرفت و کارهای برنامه‌ریزی‌شده را برای **VPS to VPN** (گروه Black Fox) شرح می‌دهد. مبنای آن کد فعلی Go ویندوز، وب‌سایت رسمی و رفتار سرویس لایسنس است. نسخهٔ اندروید در این گذر عوض نشده است.
+این فهرست کار تمام‌شده، کار جاری و کار برنامه‌ریزی‌شده را نشان می‌دهد. مبنا کد Go ویندوز، سایت و سرویس لایسنس است. شماره نسخه اندروید را اینجا عوض نمی‌کنیم مگر در یادداشت انتشار گفته شود.
 
 ---
 
-## دانلودها (با نام کامل محصول)
+## دانلودها
 
-| محصول | نام فایل | لینک |
-|--------|----------|------|
-| VPS to VPN (ویندوز) | `VPS to VPN-Setup.exe` | [دانلود](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
-| VPS to VPN Android | `VPS to VPN Android.apk` | [دانلود](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
-| Black Fox Config Builder | `Black-Fox-Config-Builder.apk` | [دانلود](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
+| محصول | فایل | گیت‌هاب | سایت |
+|--------|------|---------|------|
+| نصب‌کننده ویندوز | `VPS to VPN-Setup.exe` | [دانلود](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Setup.exe) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| نسخه قابل‌حمل ویندوز | `VPS to VPN-Portable.zip` | [دانلود](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS%20to%20VPN-Portable.zip) | — |
+| اندروید arm64 | `VPS-to-VPN-Android-arm64-v8a-release.apk` | [دانلود](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
+| Black Fox Config Builder | `Black-Fox-Config-Builder.apk` | — | [foxnext.net](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
 
-انتشار VPS to VPN Android در Google Play: **به‌زودی**  
-نسخه macOS: **به‌زودی**
+Google Play برای اندروید: به‌زودی.  
+نسخه macOS: به‌زودی.
 
 ---
 
@@ -26,74 +28,57 @@
 
 ### پلتفرم و انتشار
 
-- نصب‌کننده و کنسول عملیاتی دسکتاپ ویندوز — **VPS to VPN** نسخه 3.1.1 Build 213  
-- اپ عملیاتی اندروید — **VPS to VPN Android** (نسخه در این گذر عوض نشده)  
-- ابزار همراه اندروید — **Black Fox Config Builder** نسخه 1.1.3 Build 7  
-- وب‌سایت رسمی و دو میزبان آپدیت (`foxnext.net` و `blackfoxupdate.ir`)  
-- صفحات سیاست حریم خصوصی فارسی و انگلیسی روی foxnext.net  
+- نصب‌کننده و کنسول ویندوز: VPS to VPN نسخه 3.1.1 Build 213
+- اپ عملیات اندروید
+- ابزار همراه Config Builder نسخه 1.1.3 Build 7
+- سایت و دو میزبان آپدیت (`foxnext.net`، `blackfoxupdate.ir`)
+- صفحات حریم خصوصی فارسی و انگلیسی
+- اسناد و باینری عمومی روی [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
 ### عملیات اصلی (ویندوز و اندروید)
 
-- حالت‌های Basic و Pro  
-- راه‌اندازی Central Server / Connect SSH / Full Deploy  
-- مدیریت Tunnel Server در Pro  
-- مدیریت Exit Server (Basic: دو اسلات · Pro: تا شش خروجی)  
-- نه نوع مسیر مش (Xray reverse / overlay به‌علاوه WireGuard در آخر) با failover خودکار  
-- ابزارهای Configure Panel  
-- کمک‌کننده‌های نصب WireGuard و 3X-UI  
+- حالت Basic و Pro
+- راه‌اندازی Central، Connect SSH، Full Deploy
+- Tunnel Server در Pro
+- Exit Server (Basic: دو اسلات؛ Pro: تا شش)
+- نه نوع مسیر مش با failover خودکار
+- ابزار Configure Panel
+- نصب WireGuard و 3X-UI
 
-### امکانات پیشرفته Pro
+### امکانات Pro
 
-- مدیریت Domain و Subdomain با اتوماسیون DNS (Cloudflare و ArvanCloud)  
-- اتوماسیون CDN در **Pro ویندوز** (ArvanCloud، Cloudflare، KeyCDN، Other)  
-- **Move Central Server روی ویندوز و اندروید (Pro)**  
-  - اتصال مجدد Tunnel Serverها و Exit Serverها به مرکزی جدید  
-  - انتقال خودکار کلاینت‌های پنل 3X-UI از طریق snapshot و restore  
-  - ساخت بکاپ محلی در مسیر انتقال  
-- مسیر بکاپ مهاجرتی که توسط Move Central استفاده می‌شود  
+- DNS دامنه و ساب‌دامین (Cloudflare، ArvanCloud)
+- CDN روی Pro ویندوز (ArvanCloud، Cloudflare، KeyCDN، Other)
+- Move Central روی ویندوز و اندروید: وصل دوباره تونل و خروجی، برگرداندن کلاینت 3X-UI از snapshot، بکاپ محلی مهاجرت
 
 ### لایسنس
 
-- تأیید پرداخت آنلاین (TX Hash / USDT)  
-- کدهای فعال‌سازی آفلاین  
-- **فعال‌سازی مجدد لایسنس** در صفحه ثبت‌نام  
-  - پس از حذف و نصب مجدد برنامه روی **همان دستگاه**، کاربر فقط دکمه **فعال‌سازی مجدد (Reactivation)** را می‌زند  
-  - برنامه با اثرانگشت دستگاه، سابقه فعال‌سازی را از سرویس رسمی بازیابی می‌کند  
-  - دیگر لازم نیست کاربر کد لایسنس را فقط برای بازیابی پس از نصب مجدد روی همان دستگاه دائماً نگهداری کند  
+- تأیید پرداخت آنلاین (TX Hash / USDT)
+- کد آفلاین
+- فعال‌سازی مجدد در صفحه ثبت‌نام بعد از حذف و نصب روی همان دستگاه (اثر انگشت ماشین)
 
-### ابزار همراه — Black Fox Config Builder
+### Config Builder
 
-- ابزار همراه اندروید **Black Fox Config Builder** نسخه 1.1.3 Build 7  
-- دانلود: [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)  
-- ریپوی مستندات: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)  
-- شش تب: Connection · Single · Bulk · List · Settings · Contact  
-- ساخت با انتخاب چند Inbound (تکی و گروهی)  
-- حذف از پنل / حذف از لیست  
-- آپدیت ریموت دو سرور (`blackfoxupdate.ir` و `foxnext.net`)  
-- نیاز به 3X-UI **≥ 3.3.0** · اندروید API 24 به بالا · ۱۰ زبان  
-- Build 6: فید ریموت دو سرور · Build 7: نسخه فعلی منتشرشده اندروید  
+شش تب، ساخت تکی و گروهی، حذف از پنل یا لیست، آپدیت دو سرور، نیاز به 3X-UI 3.3.0 به بالا و API 24.  
+مستندات: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)
 
 ### بومی‌سازی
 
-- پشتیبانی از **۱۰ زبان:** انگلیسی، فارسی، روسی، چینی، آلمانی، ازبکی، ترکی، اندونزیایی، اوکراینی و هندی  
-- پوشش مشترک بومی‌سازی در اپ‌ها و وب‌سایت  
+ده زبان: انگلیسی، فارسی، روسی، چینی، آلمانی، ازبکی، ترکی، اندونزیایی، اوکراینی، هندی.
 
-### مستندات و سطوح برند
+### اسناد
 
-- README انگلیسی همراه با بخش کامل فارسی  
-- ROADMAP انگلیسی و فارسی  
-- WHITEPAPER انگلیسی و فارسی  
-- راهنماهای وب‌سایت برای Basic / Pro / Registration / Keys / Config Builder  
+README، ROADMAP و WHITEPAPER به انگلیسی، فارسی، روسی و چینی.
 
 ---
 
 ## در حال انجام
 
-- نزدیک‌تر کردن عمق عملیاتی اندروید و ویندوز (جزئیات UI و جریان‌های حاشیه‌ای)  
-- سخت‌کردن تجربه کاربری برای عملیات طولانی Deploy و Move  
-- بهبود پایداری SSH، همگام‌سازی پنل و بررسی آپدیت  
-- همگام‌سازی محتوای وب‌سایت با رفتار واقعی محصول  
-- کاهش تفاوت‌های باقی‌مانده بین ابزار CDN ویندوز و دامنه Pro اندروید  
+- نزدیک‌کردن رفتار اندروید و ویندوز در جریان‌های طولانی یا حاشیه‌ای
+- UI واضح‌تر هنگام Deploy و Move
+- پایداری SSH، همگام‌سازی پنل و چک آپدیت
+- هم‌خوانی متن سایت با رفتار واقعی برنامه
+- کم کردن فاصله ابزار CDN ویندوز و دامنه Pro اندروید
 
 ---
 
@@ -101,42 +86,38 @@
 
 ### کوتاه‌مدت
 
-- انتشار رسمی **VPS to VPN Android** در Google Play (از Coming Soon به منتشرشده)  
-- ابزار Backup / Restore مستقل‌تر فراتر از بکاپ مهاجرت Move Central  
-- رابط ازسرگیری میانی برای استقرارهای قطع‌شده  
-- تشخیص‌پذیری بهتر خطا و پیام‌های بازیابی واضح‌تر برای اپراتور  
+- فهرست Google Play
+- Backup و Restore جدا از snapshot مهاجرت
+- ازسرگیری استقرار قطع‌شده
+- پیام خطای واضح‌تر برای اپراتور
 
 ### میان‌مدت
 
-- نسخه macOS از VPS to VPN (به‌زودی)  
-- پرداخت عمیق‌تر جریان‌های چند CDN روی ویندوز  
-- افزودن ارائه‌دهنده DNS / CDN بیشتر در صورت تقاضای روشن  
-- ردپای ممیزی قوی‌تر برای Move Central و فعال‌سازی مجدد لایسنس  
+- نسخه macOS
+- پرداخت بیشتر جریان CDN روی ویندوز
+- ارائه‌دهنده DNS/CDN بیشتر اگر تقاضا باشد
+- لاگ ممیزی بهتر برای Move Central و فعال‌سازی مجدد
 
-### بلندمدت
+### بعدتر
 
-- ابزارهای اپراتوری چندمنطقه‌ای گسترده‌تر  
-- اتوماسیون عمیق‌تر پنل و چرخه عمر کلاینت  
-- پلتفرم‌ها و کانال‌های بسته‌بندی بیشتر بر اساس تقاضا  
+- ابزار اپراتوری چندمنطقه‌ای بیشتر
+- اتوماسیون بیشتر چرخه کلاینت پنل
+- پلتفرم یا استور دیگر اگر تقاضا باشد
 
 ---
 
-## چیزهایی که فعلاً هدف نیستند
+## فعلاً در هدف نیست
 
-- تبدیل این مجموعه به کلاینت VPN مصرفی برای کاربر نهایی  
-- ادعای انتشار Google Play یا macOS قبل از آماده بودن واقعی  
-- مستند کردن امکاناتی که در سورس فعلی ویندوز/اندروید وجود ندارد  
+- کلاینت VPN مصرفی برای کاربر نهایی
+- گفتن اینکه Google Play یا macOS منتشر شده
+- نوشتن امکاناتی که در سورس فعلی نیست
 
 ---
 
 ## اسناد مرتبط
 
-- [README.md](../README.md)  
-- [WHITEPAPER.fa.md](WHITEPAPER.fa.md)  
-- [WHITEPAPER.en.md](WHITEPAPER.en.md)  
-- [ROADMAP.en.md](ROADMAP.en.md)  
-- مستندات Config Builder: [BlackFoxGroup/blackfox-config-builder](https://github.com/BlackFoxGroup/blackfox-config-builder)  
-
----
+- [README.md](../README.md)
+- [WHITEPAPER.fa.md](WHITEPAPER.fa.md)
+- [ROADMAP.en.md](ROADMAP.en.md) · [ROADMAP.ru.md](ROADMAP.ru.md) · [ROADMAP.zh.md](ROADMAP.zh.md)
 
 © Black Fox Security Team
