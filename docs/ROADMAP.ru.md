@@ -14,7 +14,7 @@
 
 | Продукт | Файл | GitHub | Сайт |
 |---------|------|--------|------|
-| Установщик Windows | `VPS to VPN-Setup.exe` | [скачать](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Setup.exe) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Установщик Windows | `VPS-to-VPN-Setup.zip` | [скачать](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | Portable Windows | `VPS to VPN-Portable.zip` | [скачать](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS.to.VPN-Portable.zip) | — |
 | Android arm64 | `VPS-to-VPN-Android-arm64-v8a-release.apk` | [скачать](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) | [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Black Fox Config Builder | `Black-Fox-Config-Builder.apk` | — | [foxnext.net](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
