@@ -497,7 +497,7 @@ VPS to VPN（Black Fox Group）是一套 Windows 运维控制台，用来部署�
 
 | 平台 | 产品 | 状态 | 下载 |
 |------|------|------|------|
-| Windows | VPS to VPN v3.2.0 安装包 | 已发布 | [Setup.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Windows | VPS to VPN v3.2.0 安装包 | 已发布 | [Setup.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | Windows | 便携版 | 已发布 | [Portable.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Portable.zip) |
 | Android | VPS to VPN Android（arm64） | 已发布 | [APK（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android | Black Fox Config Builder | 已发布 | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
