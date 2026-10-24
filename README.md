@@ -155,6 +155,33 @@ English, Persian, Russian, Chinese, German, Uzbek, Turkish, Indonesian, Ukrainia
 
 ## Privacy and support
 
+### Transparency and privacy in VPS to VPN
+
+Black Fox Group treats user privacy, transparent behavior, and control of information as core software-development principles.
+
+You should be able to understand how the app works, which information is exchanged, and when it connects to Black Fox Group services.
+
+#### Your server information stays under your control
+
+The app manages server connection details and configuration on your own system. It does not send your server inventory to Black Fox Group for storage or retention. Online connections are made only for features that need an online service.
+
+#### How online connections work
+
+- **Free-domain creation with Cloudflare:** the current app requests the free-domain catalog from Foxnext and uses its Cloudflare API credential directly to create or update the required DNS record. The credential is therefore available to the running app during this operation. This is the current implementation and is documented here so that it is clear to operators.
+- **License validation:** the Device ID is sent to the license service to validate the license and its expiry.
+- **Manual update check:** you can manually check for a newer version. The app does not update itself automatically.
+- **Public information:** the app can fetch public service details and support contact information from the server.
+
+#### Reviewable logs
+
+The app records its operations in logs. These logs help you review steps, execution state, and possible errors.
+
+#### Our privacy commitment
+
+The goal is software with transparent behavior that does not collect user information beyond the needs of its features. Online connections have defined purposes, including free-domain DNS work, license validation, updates, and public information.
+
+**VPS to VPN — transparent behavior, privacy, and control of information in your hands.**
+
 - Privacy EN: https://foxnext.net/en/privacy.html
 - Privacy FA: https://foxnext.net/fa/privacy.html
 - Telegram: https://t.me/blackFoxVPNN
@@ -307,6 +334,33 @@ Roadmap / whitepaper:
 
 ## حریم خصوصی و پشتیبانی
 
+### شفافیت و حریم خصوصی در VPS to VPN
+
+در Black Fox Group، حفظ حریم خصوصی کاربران، شفافیت عملکرد و کنترل اطلاعات از اصول اصلی توسعه نرم‌افزار هستند.
+
+شما باید بدانید برنامه چگونه کار می‌کند، چه اطلاعاتی مبادله می‌شود و چه زمانی با سرویس‌های Black Fox Group ارتباط برقرار می‌شود.
+
+#### اطلاعات سرور شما در کنترل شماست
+
+برنامه اطلاعات اتصال و تنظیمات سرورها را روی سیستم خودتان مدیریت می‌کند. فهرست سرورهای شما برای ذخیره یا نگهداری به Black Fox Group ارسال نمی‌شود. ارتباط آنلاین فقط برای قابلیت‌هایی انجام می‌شود که به سرویس آنلاین نیاز دارند.
+
+#### ارتباطات آنلاین برنامه چگونه کار می‌کنند؟
+
+- **ساخت دامنهٔ رایگان با Cloudflare:** نسخهٔ فعلی برنامه کاتالوگ دامنهٔ رایگان را از Foxnext می‌گیرد و برای ساخت یا تغییر رکورد DNS، کلید API کلودفلر آن را مستقیم استفاده می‌کند. بنابراین کلید در زمان این عملیات در اختیار برنامهٔ در حال اجرا قرار می‌گیرد. این رفتار فعلی برنامه است و برای شفافیت کامل مستند شده است.
+- **بررسی اعتبار لایسنس:** شناسهٔ دستگاه برای بررسی لایسنس و تاریخ اعتبار آن به سرویس لایسنس ارسال می‌شود.
+- **بررسی دستی به‌روزرسانی:** کاربر می‌تواند دستی وجود نسخهٔ جدید را بررسی کند. برنامه خودکار به‌روز نمی‌شود.
+- **دریافت اطلاعات عمومی:** برنامه می‌تواند مشخصات عمومی سرویس و راه‌های ارتباط با پشتیبانی را از سرور دریافت کند.
+
+#### گزارش‌های قابل بررسی
+
+روند اجرای عملیات در گزارش‌ها قابل مشاهده است. این گزارش‌ها مراحل عملیات، وضعیت اجرا و خطاهای احتمالی را نشان می‌دهند.
+
+#### تعهد ما به حریم خصوصی
+
+هدف ما نرم‌افزاری با عملکرد شفاف است که اطلاعات کاربران را بیشتر از نیاز قابلیت‌های برنامه جمع‌آوری نکند. ارتباطات آنلاین هدف مشخص دارند؛ از جمله DNS دامنهٔ رایگان، اعتبارسنجی لایسنس، به‌روزرسانی و اطلاعات عمومی.
+
+**VPS to VPN — شفافیت در عملکرد، حفظ حریم خصوصی و کنترل اطلاعات در دستان شما.**
+
 - حریم خصوصی فارسی: https://foxnext.net/fa/privacy.html
 - حریم خصوصی انگلیسی: https://foxnext.net/en/privacy.html
 - تلگرام: https://t.me/blackFoxVPNN
@@ -454,6 +508,33 @@ AI Assistant Pro — лицензия Black Fox Group внутри прилож�
 
 ## Конфиденциальность и поддержка
 
+### Прозрачность и конфиденциальность в VPS to VPN
+
+Black Fox Group считает конфиденциальность пользователей, прозрачность работы и контроль информации основными принципами разработки.
+
+Вы должны понимать, как работает приложение, какие данные передаются и когда оно подключается к сервисам Black Fox Group.
+
+#### Информация о ваших серверах остаётся под вашим контролем
+
+Приложение управляет данными подключений и настройками серверов на вашей системе. Список ваших серверов не отправляется в Black Fox Group для хранения. Сетевые подключения выполняются только для функций, которым нужен онлайн-сервис.
+
+#### Как работают онлайн-подключения
+
+- **Бесплатный домен с Cloudflare:** текущая версия запрашивает каталог бесплатных доменов у Foxnext и напрямую использует его Cloudflare API credential для создания или изменения DNS-записи. Поэтому credential доступен запущенному приложению во время этой операции. Это текущее поведение документировано здесь для полной прозрачности.
+- **Проверка лицензии:** Device ID отправляется в сервис лицензирования для проверки лицензии и срока её действия.
+- **Ручная проверка обновлений:** пользователь может вручную проверить новую версию. Автоматического обновления нет.
+- **Публичная информация:** приложение может получать с сервера общие сведения о сервисе и контакты поддержки.
+
+#### Проверяемые журналы
+
+Приложение записывает ход операций в журналы. По ним можно проверить шаги, состояние выполнения и возможные ошибки.
+
+#### Наше обязательство по конфиденциальности
+
+Наша цель — прозрачное ПО, которое не собирает пользовательские данные сверх того, что нужно его функциям. Онлайн-подключения имеют определённые цели: DNS бесплатного домена, проверка лицензии, обновления и публичная информация.
+
+**VPS to VPN — прозрачная работа, конфиденциальность и контроль информации в ваших руках.**
+
 - Политика EN: https://foxnext.net/en/privacy.html
 - Политика FA: https://foxnext.net/fa/privacy.html
 - Telegram: https://t.me/blackFoxVPNN
@@ -600,6 +681,33 @@ AI Assistant Pro 是应用内的 Black Fox Group 许可。开通后，可以把�
 ---
 
 ## 隐私与支持
+
+### VPS to VPN 的透明度与隐私
+
+Black Fox Group 将用户隐私、运行透明度和信息控制视为软件开发的核心原则。
+
+你应当能够了解应用如何工作、交换哪些信息，以及它何时连接 Black Fox Group 的服务。
+
+#### 你的服务器信息由你控制
+
+应用在你自己的系统上管理服务器连接信息和配置。它不会把你的服务器清单发送给 Black Fox Group 用于存储或保留。联网只在某项功能需要在线服务时发生。
+
+#### 应用如何进行在线连接
+
+- **通过 Cloudflare 创建免费域名：** 当前版本会从 Foxnext 请求免费域名目录，并直接使用其中的 Cloudflare API credential 创建或更新所需的 DNS 记录。因此，该 credential 在此操作期间可供正在运行的应用使用。这里如实记录当前实现，以便运维人员清楚了解。
+- **许可证验证：** Device ID 会发送到许可证服务，用于验证许可证及其有效期。
+- **手动检查更新：** 用户可以手动检查新版本。应用不会自动更新。
+- **获取公开信息：** 应用可以从服务器获取公开服务信息和支持联系方式。
+
+#### 可检查的日志
+
+应用会在日志中记录操作过程。日志可帮助你检查步骤、执行状态和可能的错误。
+
+#### 我们对隐私的承诺
+
+我们的目标是提供行为透明的软件，不收集超出功能所需的用户信息。在线连接有明确用途，包括免费域名 DNS、许可证验证、更新和公开信息。
+
+**VPS to VPN —— 透明运行、隐私保护，以及由你掌握的信息控制。**
 
 - 英文隐私：https://foxnext.net/en/privacy.html
 - 波斯文隐私：https://foxnext.net/fa/privacy.html
