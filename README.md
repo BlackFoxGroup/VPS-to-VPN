@@ -165,6 +165,8 @@ You should be able to understand how the app works, which information is exchang
 
 The app manages server connection details and configuration on your own system. It does not send your server inventory to Black Fox Group for storage or retention. Online connections are made only for features that need an online service.
 
+Black Fox Group receives no server information or configuration from the user.
+
 #### How online connections work
 
 - **Free-domain creation with Cloudflare:** the current app requests the free-domain catalog from Foxnext and uses its Cloudflare API credential directly to create or update the required DNS record. The credential is therefore available to the running app during this operation. This is the current implementation and is documented here so that it is clear to operators.
@@ -344,6 +346,8 @@ Roadmap / whitepaper:
 
 برنامه اطلاعات اتصال و تنظیمات سرورها را روی سیستم خودتان مدیریت می‌کند. فهرست سرورهای شما برای ذخیره یا نگهداری به Black Fox Group ارسال نمی‌شود. ارتباط آنلاین فقط برای قابلیت‌هایی انجام می‌شود که به سرویس آنلاین نیاز دارند.
 
+هیچ‌گونه اطلاعاتی از سرورها یا تنظیمات کاربر برای Black Fox Group ارسال نمی‌شود.
+
 #### ارتباطات آنلاین برنامه چگونه کار می‌کنند؟
 
 - **ساخت دامنهٔ رایگان با Cloudflare:** نسخهٔ فعلی برنامه کاتالوگ دامنهٔ رایگان را از Foxnext می‌گیرد و برای ساخت یا تغییر رکورد DNS، کلید API کلودفلر آن را مستقیم استفاده می‌کند. بنابراین کلید در زمان این عملیات در اختیار برنامهٔ در حال اجرا قرار می‌گیرد. این رفتار فعلی برنامه است و برای شفافیت کامل مستند شده است.
@@ -518,6 +522,8 @@ Black Fox Group считает конфиденциальность пользо
 
 Приложение управляет данными подключений и настройками серверов на вашей системе. Список ваших серверов не отправляется в Black Fox Group для хранения. Сетевые подключения выполняются только для функций, которым нужен онлайн-сервис.
 
+Black Fox Group не получает от пользователя сведения о серверах или их настройках.
+
 #### Как работают онлайн-подключения
 
 - **Бесплатный домен с Cloudflare:** текущая версия запрашивает каталог бесплатных доменов у Foxnext и напрямую использует его Cloudflare API credential для создания или изменения DNS-записи. Поэтому credential доступен запущенному приложению во время этой операции. Это текущее поведение документировано здесь для полной прозрачности.
@@ -691,6 +697,8 @@ Black Fox Group 将用户隐私、运行透明度和信息控制视为软件开�
 #### 你的服务器信息由你控制
 
 应用在你自己的系统上管理服务器连接信息和配置。它不会把你的服务器清单发送给 Black Fox Group 用于存储或保留。联网只在某项功能需要在线服务时发生。
+
+Black Fox Group 不会从用户接收服务器信息或服务器配置。
 
 #### 应用如何进行在线连接
 
