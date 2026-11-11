@@ -2,7 +2,7 @@
 
 **آخرین به‌روزرسانی:** ۱۳ سپتامبر ۲۰۲۶  
 **محصول:** VPS to VPN  
-**نسخه فعلی:** ویندوز v3.2.0 (Build 220). اندروید و Config Builder از `version.json` روی میزبان آپدیت می‌آیند.  
+**نسخه فعلی:** ویندوز v3.2.2 (Build 225). اندروید و Config Builder از `version.json` روی میزبان آپدیت می‌آیند.  
 **وب‌سایت:** [https://foxnext.net](https://foxnext.net)  
 **گیت‌هاب عمومی:** [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
@@ -28,7 +28,7 @@ Google Play برای اندروید: به‌زودی.
 
 ### پلتفرم و انتشار
 
-- نصب‌کننده و کنسول ویندوز: VPS to VPN نسخه 3.2.0 Build 220
+- نصب‌کننده و کنسول ویندوز: VPS to VPN نسخه 3.2.2 Build 225
 - اپ عملیات اندروید
 - ابزار همراه Config Builder نسخه 1.1.3 Build 7
 - سایت و دو میزبان آپدیت (`foxnext.net`، `blackfoxupdate.ir`)

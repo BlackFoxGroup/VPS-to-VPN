@@ -2,7 +2,7 @@
 
 **Обновлено:** 13 сентября 2026  
 **Продукты:** VPS to VPN (Windows), VPS to VPN Android, Black Fox Config Builder  
-**Windows:** v3.2.0 (Build 220)  
+**Windows:** v3.2.2 (Build 225)  
 **Сайт:** [https://foxnext.net](https://foxnext.net)  
 **Публичный GitHub:** [https://github.com/BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 

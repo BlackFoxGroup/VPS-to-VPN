@@ -2,7 +2,7 @@
 
 **更新日期：** 2026-09-13  
 **产品：** VPS to VPN（Windows）、VPS to VPN Android、Black Fox Config Builder  
-**Windows 版本：** v3.2.0（Build 220）  
+**Windows 版本：** v3.2.2（Build 225）  
 **网站：** [https://foxnext.net](https://foxnext.net)  
 **公开仓库：** [https://github.com/BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 

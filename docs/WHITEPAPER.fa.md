@@ -2,7 +2,7 @@
 
 **آخرین به‌روزرسانی:** ۱۳ سپتامبر ۲۰۲۶  
 **محصول‌ها:** VPS to VPN (ویندوز)، VPS to VPN Android، Black Fox Config Builder  
-**نسخه ویندوز:** v3.2.0 (Build 220)  
+**نسخه ویندوز:** v3.2.2 (Build 225)  
 **وب‌سایت:** [https://foxnext.net](https://foxnext.net)  
 **گیت‌هاب عمومی:** [https://github.com/BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 

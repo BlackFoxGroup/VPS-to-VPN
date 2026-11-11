@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-09-13  
 **Product:** VPS to VPN  
-**Current releases:** Windows v3.2.0 (Build 220). Android and Config Builder follow `version.json` on the update hosts.  
+**Current releases:** Windows v3.2.2 (Build 225). Android and Config Builder follow `version.json` on the update hosts.  
 **Website:** [https://foxnext.net](https://foxnext.net)  
 **Public GitHub:** [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
@@ -28,7 +28,7 @@ macOS edition: coming soon.
 
 ### Platform and releases
 
-- Windows installer and operations console: VPS to VPN v3.2.0 Build 220
+- Windows installer and operations console: VPS to VPN v3.2.2 Build 225
 - Android operations app: VPS to VPN Android
 - Companion: Black Fox Config Builder v1.1.3 Build 7
 - Site plus two update hosts (`foxnext.net`, `blackfoxupdate.ir`)

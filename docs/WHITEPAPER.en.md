@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-09-13  
 **Products:** VPS to VPN (Windows), VPS to VPN Android, Black Fox Config Builder  
-**Current Windows release:** v3.2.0 (Build 220)  
+**Current Windows release:** v3.2.2 (Build 225)  
 **Website:** [https://foxnext.net](https://foxnext.net)  
 **Public GitHub:** [https://github.com/BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 

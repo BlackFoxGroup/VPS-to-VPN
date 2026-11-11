@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/VPS to VPN (2).PNG" alt="Black Fox VPN Logo" width="96">
+  <img src="docs/assets/logo.jpg" alt="Black Fox VPN Logo" width="96">
 </p>
 
 <h1 align="center">VPS to VPN</h1>
@@ -15,7 +15,8 @@
   <a href="#русский">Русский</a> ·
   <a href="#中文">中文</a> ·
   <a href="https://foxnext.net">Website</a> ·
-  <a href="https://t.me/blackFoxVPNN">Telegram</a> ·
+  <a href="https://t.me/Black_Fox_Group">Telegram</a> ·
+  <a href="https://t.me/Hiblackfox">Support</a> ·
   <a href="https://github.com/BlackFoxGroup/VPS-to-VPN">GitHub</a>
 </p>
 
@@ -51,7 +52,7 @@ It is aimed at operators who want several egress locations and do not want to do
 
 | Platform | Product | Status | Download |
 |----------|---------|--------|----------|
-| Windows | VPS to VPN v3.2.0 installer | Available | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Windows | VPS to VPN v3.2.2 installer | Available | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | Windows | VPS to VPN portable | Available | [Portable.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Portable.zip) |
 | Android | VPS to VPN Android (arm64) | Available | [APK (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android | Black Fox Config Builder | Available | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
@@ -186,7 +187,8 @@ The goal is software with transparent behavior that does not collect user inform
 
 - Privacy EN: https://foxnext.net/en/privacy.html
 - Privacy FA: https://foxnext.net/fa/privacy.html
-- Telegram: https://t.me/blackFoxVPNN
+- Telegram Group: https://t.me/Black_Fox_Group
+- Support: https://t.me/Hiblackfox (`@Hiblackfox`)
 - Email: support@foxnext.net
 
 Basic, Pro, and AI Assistant Pro licenses are sold through registration on [foxnext.net](https://foxnext.net).
@@ -232,7 +234,7 @@ Roadmap / whitepaper:
 
 | پلتفرم | محصول | وضعیت | دانلود |
 |--------|--------|--------|--------|
-| ویندوز | نصب‌کننده VPS to VPN نسخه ۳٫۲٫۰ | منتشر شده | [Setup.zip در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| ویندوز | نصب‌کننده VPS to VPN نسخه ۳٫۲٫۲ | منتشر شده | [Setup.zip در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | ویندوز | نسخه قابل‌حمل | منتشر شده | [Portable.zip در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Portable.zip) |
 | اندروید | VPS to VPN Android (arm64) | منتشر شده | [APK در گیت‌هاب](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | اندروید | Black Fox Config Builder | منتشر شده | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
@@ -367,7 +369,8 @@ Roadmap / whitepaper:
 
 - حریم خصوصی فارسی: https://foxnext.net/fa/privacy.html
 - حریم خصوصی انگلیسی: https://foxnext.net/en/privacy.html
-- تلگرام: https://t.me/blackFoxVPNN
+- گروه تلگرام: https://t.me/Black_Fox_Group
+- پشتیبانی: https://t.me/Hiblackfox (`@Hiblackfox`)
 - ایمیل: support@foxnext.net
 
 لایسنس Basic، Pro و AI Assistant Pro از ثبت‌نام در [foxnext.net](https://foxnext.net) فروخته می‌شود.
@@ -408,7 +411,7 @@ VPS to VPN (Black Fox Group) — консоль для Windows, которой �
 
 | Платформа | Продукт | Статус | Скачать |
 |-----------|---------|--------|---------|
-| Windows | установщик VPS to VPN v3.2.0 | доступен | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Windows | установщик VPS to VPN v3.2.2 | доступен | [Setup.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | Windows | portable | доступен | [Portable.zip (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Portable.zip) |
 | Android | VPS to VPN Android (arm64) | доступен | [APK (GitHub)](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android | Black Fox Config Builder | доступен | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
@@ -543,7 +546,8 @@ Black Fox Group не получает от пользователя сведен
 
 - Политика EN: https://foxnext.net/en/privacy.html
 - Политика FA: https://foxnext.net/fa/privacy.html
-- Telegram: https://t.me/blackFoxVPNN
+- Группа Telegram: https://t.me/Black_Fox_Group
+- Поддержка: https://t.me/Hiblackfox (`@Hiblackfox`)
 - Почта: support@foxnext.net
 
 Лицензии Basic, Pro и AI Assistant Pro продаются через регистрацию на [foxnext.net](https://foxnext.net).
@@ -584,7 +588,7 @@ VPS to VPN（Black Fox Group）是一套 Windows 运维控制台，用来部署�
 
 | 平台 | 产品 | 状态 | 下载 |
 |------|------|------|------|
-| Windows | VPS to VPN v3.2.0 安装包 | 已发布 | [Setup.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
+| Windows | VPS to VPN v3.2.2 安装包 | 已发布 | [Setup.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Setup.zip) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN-Setup.exe) |
 | Windows | 便携版 | 已发布 | [Portable.zip（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Portable.zip) |
 | Android | VPS to VPN Android（arm64） | 已发布 | [APK（GitHub）](https://github.com/BlackFoxGroup/VPS-to-VPN/releases/latest/download/VPS-to-VPN-Android-arm64-v8a-release.apk) · [foxnext.net](https://foxnext.net/downloads/VPS%20to%20VPN%20Android.apk) |
 | Android | Black Fox Config Builder | 已发布 | [APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) |
@@ -719,7 +723,8 @@ Black Fox Group 不会从用户接收服务器信息或服务器配置。
 
 - 英文隐私：https://foxnext.net/en/privacy.html
 - 波斯文隐私：https://foxnext.net/fa/privacy.html
-- Telegram：https://t.me/blackFoxVPNN
+- Telegram 群组：https://t.me/Black_Fox_Group
+- 支持：https://t.me/Hiblackfox (`@Hiblackfox`)
 - 邮箱：support@foxnext.net
 
 Basic、Pro 和 AI Assistant Pro 许可通过 [foxnext.net](https://foxnext.net) 注册出售。

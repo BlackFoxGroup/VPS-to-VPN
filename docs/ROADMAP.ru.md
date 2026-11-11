@@ -2,7 +2,7 @@
 
 **Обновлено:** 13 сентября 2026  
 **Продукт:** VPS to VPN  
-**Текущие сборки:** Windows v3.2.0 (Build 220). Android и Config Builder берутся из `version.json` на хостах обновлений.  
+**Текущие сборки:** Windows v3.2.2 (Build 225). Android и Config Builder берутся из `version.json` на хостах обновлений.  
 **Сайт:** [https://foxnext.net](https://foxnext.net)  
 **Публичный GitHub:** [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
@@ -26,7 +26,7 @@ macOS: скоро.
 
 ## Сделано
 
-- Консоль Windows v3.2.0 Build 220, приложение Android, Config Builder 1.1.3 Build 7
+- Консоль Windows v3.2.2 Build 225, приложение Android, Config Builder 1.1.3 Build 7
 - Сайт и два хоста обновлений (`foxnext.net`, `blackfoxupdate.ir`)
 - Политика конфиденциальности EN/FA
 - Документы и бинарники на [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)

@@ -2,7 +2,7 @@
 
 **更新日期：** 2026-09-13  
 **产品：** VPS to VPN  
-**当前版本：** Windows v3.2.0（Build 220）。Android 与 Config Builder 以更新主机上的 `version.json` 为准。  
+**当前版本：** Windows v3.2.2（Build 225）。Android 与 Config Builder 以更新主机上的 `version.json` 为准。  
 **网站：** [https://foxnext.net](https://foxnext.net)  
 **公开仓库：** [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)
 
@@ -25,7 +25,7 @@ Google Play：即将上线。macOS：即将上线。
 
 ## 已完成
 
-Windows 控制台 3.2.0 Build 220、Android 运维应用、Config Builder 1.1.3 Build 7。官网与双更新主机。隐私页（中英对照站点上的 EN/FA）。公开文档和安装包在 [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)。
+Windows 控制台 3.2.2 Build 225、Android 运维应用、Config Builder 1.1.3 Build 7。官网与双更新主机。隐私页（中英对照站点上的 EN/FA）。公开文档和安装包在 [BlackFoxGroup/VPS-to-VPN](https://github.com/BlackFoxGroup/VPS-to-VPN)。
 
 Basic / Pro，以及 AI Assistant Pro（聊天里的 Black Fox Group 智能体，改服务器前会确认）。Central、SSH、Full Deploy，Pro 的 Tunnel，Exit（Basic 2 槽，Pro 最多 6）。九种 mesh 与 failover。Configure Panel。安装 WireGuard / 3X-UI。
 

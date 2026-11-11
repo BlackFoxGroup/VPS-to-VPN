@@ -4,11 +4,40 @@
 
 # Secrets
 .env
+.env.*
+!.env.example
+!.env.*.example
 *.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+**/key.properties
+!**/key.properties.example
+**/KEYSTORE-CREDENTIALS.local.txt
 **/auth.json
+**/issuer.json
 **/PAS/
+.deploy/ftp.local.ps1
+.deploy/ftp-foxnext.local.ps1
+**/ai-secrets.json
+website/data/ai-secrets.json
+Host foxnext/free-domains.local.json
+**/free-domains.local.json
+
+.deploy/trusted-signing.local.ps1
+.deploy/trusted-signing.metadata.json
+.deploy/openrouter.local.key
+.deploy/roo-code-settings.local.json
+.deploy/cursor-backup/
+.tools/
 
 # Build artifacts
+build/
+mobilebind/
 dist/
 Updates/
 Downloads/
@@ -22,13 +51,35 @@ Thumbs.db
 # Large local docs cache
 docs-assets/quick-start.html
 
+# Local 3X-UI release tarballs staged for BlackFox hub upload
+/3X-UI packages/
+
 # Keep published docs only in docs/
 
 # Local Android Flutter workspace (not published on GitHub)
 /Mobile/
 
+# Android release outputs and local tool caches
+/Android-VPS to VPN/App Bundle/
+/Android-VPS to VPN/arm64/
+/Android-VPS to VPN/VPS-to-VPN-Android-release/
+/Android-VPS to VPN/tools/
+/Android-VPS to VPN/flutter/.dart_tool/
+/Android-VPS to VPN/flutter/build/
+/Android-VPS to VPN/flutter/android/.gradle/
+/Android-VPS to VPN/flutter/android/app/build/
+/Android-VPS to VPN/flutter/android/app/libs/mobile.aar
+/Android-VPS to VPN/flutter/android/app/libs/mobile-sources.jar
+/Android-VPS to VPN/flutter/android/app/libs/engine-id.txt
+/Android-VPS to VPN/scripts/*.log
+/VPS to VPN-Portable/
 
-
-# Local Android Flutter workspace (not published on GitHub)
-/Mobile/
+# Agent / graph caches (local only)
+graphify-out/
+Baner/
+.swarm/
+.serena/
+.agent-cache/
+.claude-flow/
+.codex/
 
