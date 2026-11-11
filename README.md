@@ -132,6 +132,14 @@ The same tab has Topology, Mesh Links status, and the Active Link Monitor list.
 
 AI Assistant Pro is a Black Fox Group license inside the app. After you activate it, you can leave most console work to the in-app AI agent: add Central, Tunnel, Exit, or Node, install 3X-UI, mesh, domain and CDN, diagnose and repair, and other tasks the program already does. You type the request in chat (or attach a note or photo). The agent confirms before it changes a server.
 
+## Activation and payment methods
+
+Licenses (`Basic`, `Pro`, and `AI Assistant Pro`) support multiple payment and activation options through [foxnext.net/en/activation.html](https://foxnext.net/en/activation.html):
+
+- **Payment methods:** `Visa` / `Mastercard`, `Google Pay` / `Apple Pay` (on supported devices and browsers), `USDT (BEP-20)` with `TX HASH` verification, or direct purchase and offline code assistance via Telegram support ([`@Hiblackfox`](https://t.me/Hiblackfox)).
+- **How to activate:** Select your mode, duration, and device count on the activation page, complete payment using your preferred method, and receive an activation code. Open the **Registration** tab in the Windows or Android app, paste the code, and select **Activate**.
+- **Restore and upgrade:** Each code binds to the device (`Device ID`) on first activation. You can restore an active license after reinstalling on the same device using **Reactivation**, or upgrade and recharge AI quota on [foxnext.net/en/ai-recharge.html](https://foxnext.net/en/ai-recharge.html).
+
 ---
 
 ## Architecture
@@ -314,6 +322,14 @@ Roadmap / whitepaper:
 
 لایسنس AI Assistant Pro داخل برنامه است. بعد از فعال‌سازی می‌توانید بیشتر کار کنسول را به ایجنت هوش مصنوعی گروه Black Fox بسپارید: افزودن Central، Tunnel، Exit یا Node، نصب 3X-UI، مش، دامنه و CDN، تشخیص و تعمیر، و بقیه کارهایی که خود برنامه بلد است. درخواست را در چت می‌نویسید (یا فایل و عکس می‌فرستید). قبل از تغییر سرور ایجنت تأیید می‌گیرد.
 
+## نحوهٔ فعال‌سازی و روش‌های پرداخت
+
+برای تهیه و فعال‌سازی لایسنس‌های `Basic`، `Pro` و `AI Assistant Pro` چندین روش پرداخت و فعال‌سازی از طریق [صفحهٔ فعال‌سازی در foxnext.net](https://foxnext.net/fa/activation.html) در دسترس است:
+
+- **روش‌های پرداخت:** `Visa` / `Mastercard`، `Google Pay` / `Apple Pay` (در دستگاه‌ها و مرورگرهای پشتیبانی‌شده)، رمزارز `USDT (BEP-20)` با تأیید آنی `TX HASH`، **پرداخت ریالی** و همچنین دریافت کد فعال‌سازی از طریق پشتیبانی تلگرام ([`@Hiblackfox`](https://t.me/Hiblackfox)).
+- **مراحل فعال‌سازی:** حالت، مدت اعتبار و تعداد دستگاه را در صفحهٔ فعال‌سازی انتخاب کنید، پرداخت را با روش دلخواه انجام دهید و کد فعال‌سازی را دریافت کنید. سپس در برنامهٔ ویندوز یا اندروید وارد بخش **Registration** شوید، کد را وارد کنید و دکمهٔ **Activate** را بزنید.
+- **بازیابی و ارتقا:** هر کد در اولین استفاده به شناسهٔ همان دستگاه (`Device ID`) متصل می‌شود؛ در صورت نصب مجدد روی همان دستگاه می‌توانید با **Reactivation** لایسنس را بازیابی کنید یا از صفحهٔ [ارتقا و شارژ AI](https://foxnext.net/fa/ai-recharge.html) استفاده نمایید.
+
 ---
 
 ## معماری
@@ -491,6 +507,14 @@ WireGuard, GRE и QUIC больше не первые транспорты mesh.
 
 AI Assistant Pro — лицензия Black Fox Group внутри приложения. После активации большую часть работы консоли можно отдать ИИ-агенту: добавить Central, Tunnel, Exit или Node, поставить 3X-UI, mesh, домен и CDN, диагностика и ремонт, и другие уже существующие операции. Запрос пишете в чат (или прикладываете файл или фото). Перед изменением сервера агент спрашивает подтверждение.
 
+## Активация и способы оплаты
+
+Для лицензий `Basic`, `Pro` и `AI Assistant Pro` доступно несколько способов оплаты и активации через [страницу активации foxnext.net](https://foxnext.net/en/activation.html):
+
+- **Способы оплаты:** `Visa` / `Mastercard`, `Google Pay` / `Apple Pay` (на поддерживаемых устройствах и в браузерах), `USDT (BEP-20)` с проверкой `TX HASH`, а также оформление и выдача кода через поддержку в Telegram ([`@Hiblackfox`](https://t.me/Hiblackfox)).
+- **Как активировать:** выберите режим, срок действия и количество устройств на странице активации, оплатите удобным способом и получите код активации. В приложении для Windows или Android откройте вкладку **Registration**, вставьте код и нажмите **Activate**.
+- **Восстановление и пополнение:** при первом запуске код привязывается к устройству (`Device ID`). После переустановки на том же устройстве лицензию можно восстановить кнопкой **Reactivation**, а повысить тариф или пополнить лимит ИИ — на странице [AI Recharge](https://foxnext.net/en/ai-recharge.html).
+
 ---
 
 ## Архитектура
@@ -667,6 +691,14 @@ WireGuard 的后备是 SSH。
 ### AI Assistant Pro
 
 AI Assistant Pro 是应用内的 Black Fox Group 许可。开通后，可以把控制台里大部分工作交给智能体：添加 Central、Tunnel、Exit、Node，安装 3X-UI，mesh，域名和 CDN，诊断和修复，以及程序本身已有的其他操作。在聊天里写需求（或附上文件、照片）。改服务器前智能体会先确认。
+
+## 激活方式与付款方式
+
+`Basic`、`Pro` 和 `AI Assistant Pro` 许可支持多种付款与激活方式，可通过 [foxnext.net 激活页面](https://foxnext.net/en/activation.html) 完成购买与获取：
+
+- **付款方式：** 支持 `Visa` / `Mastercard`、`Google Pay` / `Apple Pay`（支持的设备与浏览器）、`USDT (BEP-20)`（提交 `TX HASH` 验证），以及通过 Telegram 支持（[`@Hiblackfox`](https://t.me/Hiblackfox)）获取激活码。
+- **激活步骤：** 在激活页面选择模式、时长和设备数量，使用任一方式完成付款后即可获得激活码。随后在 Windows 或 Android 应用中打开 **Registration** 页面，粘贴激活码并点击 **Activate**。
+- **恢复与升级：** 激活码在首次使用时绑定当前设备（`Device ID`）；同一设备重装后可通过 **Reactivation** 恢复许可，也可以在 [AI Recharge 页面](https://foxnext.net/en/ai-recharge.html) 升级套餐或充值 AI 额度。
 
 ---
 
